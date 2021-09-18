@@ -1,7 +1,7 @@
 /* 
 Kattis - moviecollection
 Time: O(T * r log(m+r))
-While a O(mr) solution is obvious, the O(r log (m+r)) solution relatively difficult to find
+While a O(mr) solution is obvious, the O(r log (m+r)) solution is relatively difficult to find
 
 The code below works by storing the stack state as 
     a fenwick tree board where 
