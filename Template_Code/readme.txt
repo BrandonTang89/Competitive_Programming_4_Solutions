@@ -1,0 +1,1 @@
+This directory contains template code from https://github.com/stevenhalim/cpbook-code/ that I would frequently use
