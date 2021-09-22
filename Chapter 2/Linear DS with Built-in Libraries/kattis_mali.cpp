@@ -4,7 +4,7 @@ Kattis - Mali
 Observation 1:
     the most optimal pairing is repeatedly greedily pairing the smallest of A with the largest of B.
     
-    "proof:"
+    proof:
         From any pairing, we attempt to re-pair b[n] (largest b) with a[0] (currently paired with b[j]):
             (a[0], b[j]) (a[i], b[n]) --> (a[0], b[n]) (a[i],b[j])
             if (a[i], b[n]) is the max pairing:
@@ -20,7 +20,8 @@ Observation 1:
                     b[n]+a[0] <= b[n] + a[i] < a[k] + b[l] ; former because i > 0, latter because of assumption that initial pairing not max pair
                     a[i]+b[j] <=b[n]+a[i]  < a[k] + b[l] former because n>j, latter because of assumption that initial pairing not max pair
 
-        Thus from any pairing, the max will not increase by repeatedly pairing b[n] with a[0], b[n-1] with a[1], etc...
+        Thus, we can safely make the pair (a[0], b[n]) and include them from our consideration,leaving us with n-1 a[i]s and b[i]s each. 
+        Repeating the above logic n times proves the theorem
 
 
     Design 1:
