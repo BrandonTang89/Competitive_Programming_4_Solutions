@@ -5,7 +5,7 @@ Observation 1:
     when all the n bits are turned on. Thus the light will turn on if k == 2**n -1 and be off for all k < 2**n -1
 
 Observation 1.1:
-    If k > 2**n, notice that on the 2**n snap, all the snappersar initialy on and powered, thus the snap resets the snapers to the initial conditions
+    If k > 2**n, notice that on the 2**n snap, all the snappers are initialy on and powered, thus the snap resets the snapers to the initial conditions
     thus we can generalise that the light will be on iff k % 2**n == 2**n -1 for all k
 
 Design 1:
