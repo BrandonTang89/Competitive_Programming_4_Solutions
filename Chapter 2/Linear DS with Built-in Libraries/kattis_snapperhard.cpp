@@ -27,8 +27,5 @@ int main(){
         else{
             printf("Case #%d: OFF\n", tc);
         }
-    }
-
-
-    
+    }    
 }
