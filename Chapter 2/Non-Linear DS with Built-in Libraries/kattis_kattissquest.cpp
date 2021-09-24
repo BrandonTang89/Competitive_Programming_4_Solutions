@@ -5,7 +5,10 @@ simplish problem that can be solved with a map of priority queues
 Debugging 1:
     make sure the map is never empty... do so by putting a dummy element at INT_MAX index
 
-Time: O(n^2 log n), Mem: O(n)
+Time complexity is as such because in the worst case scnerio, all the adds come before the queries. with at most O(n) adds, we can only remove up to that amount
+of quests despite having O(n) queries, each potentially getting the entire data structure worth of quests. As each poster takes at most O(log n) time to remove.
+the overall time is O(n log n)
+Time: O(n log n), Mem: O(n)
 */ 
 #include <bits/stdc++.h>
 using namespace std;
