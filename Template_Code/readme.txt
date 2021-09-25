@@ -1,1 +1,5 @@
-This directory contains template code from https://github.com/stevenhalim/cpbook-code/ that I would frequently use
+This directory contains template code
+
+Sources:
+- https://github.com/stevenhalim/cpbook-code/
+- Self written
