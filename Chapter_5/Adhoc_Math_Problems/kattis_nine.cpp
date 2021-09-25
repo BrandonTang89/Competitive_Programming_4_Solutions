@@ -1,3 +1,13 @@
+/* Kattis - nine 
+
+Observation 1:
+    The number of such digits is just 8*9*9*9..*9 = 8*(9**(d-1))
+
+Design 1:
+    As d might be large and the output might be large , we use fast exponentiation with modulus to ensure efficiency and correctness
+
+Time: (t log d), Mem: O(1
+*/
 #include <bits/stdc++.h>
 using namespace std;
 
