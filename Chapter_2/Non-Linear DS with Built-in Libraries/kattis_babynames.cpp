@@ -23,6 +23,10 @@ Observation 3:
     Since there's males and females, we should just use 2 seperate order statistic trees rather than trying hard
     to implement a more complex combined version
 
+Design 1:
+    SInce there a lot of I/O and it is easy to get TLE even with the correct algorithm, we opt to use fast scanf/printf
+    I/O routines before converting the C char arr to C++ strings
+
 Note that more concise code could be written by passing the ost by reference... but meh
 
 Time: O(q log n), Mem: O(n)
