@@ -1,6 +1,9 @@
 /*
 Kattis - Restaurant
 A relatively easy question (that i somehow found annoyingly hard to debug)
+The trick is to always move plates to stack 2 and take plates from stack 1.
+You should only transfer plates from stack 2 to 1 when stack 1 is empty.
+i.e. you might need to split the TAKE operation into (take, move, take)
 
 Time: O(TC n), Mem: O(1)
 */
