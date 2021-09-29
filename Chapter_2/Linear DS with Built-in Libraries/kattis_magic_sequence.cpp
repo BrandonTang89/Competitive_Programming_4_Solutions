@@ -25,7 +25,7 @@ Observation 4:
 "Observation" 5:
     When choosing what base to choose, honestly I just tried different powers of 2 to see what went the fastest... 
     Thinking logically, time complexity is O((n+b)/ln(b)), but various factors will affect the actual run time
-    according to some internet people, selecting too high of a b (such as one that minimises (n+b)/ln(b) will result in poor cacheing performance
+    according to some internet people, selecting too high of a b (such as one that minimises (n+b)/ln(b)) will result in poor cacheing performance
     thus the best strat I found thus far is to try several different powers of 2 and attempt to find one that will AC the task
 
 Futher optimisations:
