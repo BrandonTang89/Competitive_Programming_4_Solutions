@@ -24,5 +24,8 @@ Descriptions of bugs that one could encounter, possibly including edge cases.
 #### Optimisations:
 Other micro-optimisations that are not important enough to be considered ideas or observations.
 
+#### Design:
+A way we implement an idea in code to keep the code simple and easy to write.
+
 #### Time and Memory Complexity:
 My analysis of the algorithmic order of growth - might not be correct but I tried my best:(
