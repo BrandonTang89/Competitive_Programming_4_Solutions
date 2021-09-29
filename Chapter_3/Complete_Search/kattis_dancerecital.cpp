@@ -45,9 +45,7 @@ Debugging 1:
     This is a problem which can result in a really hard to find bug: if we do not sort all the dances initially,
     next_permutation will not run through permutations lexicographically smaller than the initial array...
 
-With the optimisations, we are able to
-
-
+Time: O(n! * n), Mem: O(n)
 */
 #include <bits/stdc++.h>
 using namespace std;
