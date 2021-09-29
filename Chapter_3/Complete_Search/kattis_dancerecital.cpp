@@ -23,7 +23,9 @@ Observation 3:
 Observation 4:
     since we are using a bitmask already, checking for common dancers could be done in O(number of common dancers)
     rather than O(26). This is done by taking the bitwise & of both bitmasks and then repeatedly removing the
-    least significant binary digit (found using LSOne) and incrementing the number of changes
+    least significant binary digit (found using LSOne) and incrementing the number of changes.
+    
+    Note that we could also just use __builtin_popcount() to count the number of set 1s in a speedy manner
 
 Observation 4.1:
     There are only n^2 possible adjacent dances but we are currently checking n*n! adjacent dances... meaning we
