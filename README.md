@@ -1,5 +1,5 @@
 # Kattis_CP4_Solutions
-My solutions to some of the Kattis problems listed in Competitive Programming 4.
+My solutions to some of the Kattis problems listed in Competitive Programming 4. I hope to solve at least 2 must try questions from each category, solving 3 for harder categories.
 
 Note that some of the problems attempted were listed in CP3 but not CP4s, there a small number of UVA solutions as well.
 
