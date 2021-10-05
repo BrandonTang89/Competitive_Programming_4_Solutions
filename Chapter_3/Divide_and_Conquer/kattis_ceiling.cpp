@@ -9,6 +9,7 @@ Observation 1:
 
 Observation 2:
     How to represent items in a BST? How to insert elements? idk man, never took a data structures class...
+    {edit: we can apparently use pointers.. but nawh lazy}
 
     How I decided to do it is to represent the tree as a vector of pairs<int,int>, children[tree], where children[tree][node]
     = (left_child, right_child). Then to insert, we start from the root and check its children. we do that until we 
