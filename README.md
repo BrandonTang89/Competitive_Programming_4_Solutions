@@ -32,5 +32,5 @@ My analysis of the algorithmic order of growth - might not be correct but I trie
 
 Note that as I solve more problems, what would be a design or observation in the past might no longer be the main focus and thus not discussed.
 
-### Aims
+## Aims
 I hope to solve at least 2 must try questions from each category, solving 3 for harder categories. Note that given categories "XXX (easier" and "XXX (harder)", I will attempt to solve at least 2 questions from the harder category, potentially ignoring the easier category.
