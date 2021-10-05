@@ -1,7 +1,7 @@
-# CP4_Code
-My solutions to some of the UVA/Kattis problems listed in Competitive Programming 4.
+# Kattis_CP4_Solutions
+My solutions to some of the Kattis problems listed in Competitive Programming 4.
 
-Note that some of the problems attempted were listed in CP3 but not CP4s
+Note that some of the problems attempted were listed in CP3 but not CP4s, there a small number of UVA solutions as well.
 
 The C++ code is written to be compiled using with g++ (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0
 <pre>g++ -std=c++17 kattis_xxx.cpp -o kattis_xxx && kattis_xxx</pre>
