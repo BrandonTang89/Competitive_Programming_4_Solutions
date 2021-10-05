@@ -1,5 +1,5 @@
 # Kattis_CP4_Solutions
-My solutions to some of the Kattis problems listed in Competitive Programming 4. I hope to solve at least 2 must try questions from each category, solving 3 for harder categories.
+My solutions to some of the Kattis problems listed in Competitive Programming 4. 
 
 Note that some of the problems attempted were listed in CP3 but not CP4s, there a small number of UVA solutions as well.
 
@@ -31,3 +31,6 @@ A way we implement an idea in code to keep the code simple and easy to write.
 My analysis of the algorithmic order of growth - might not be correct but I tried my best :(
 
 Note that as I solve more problems, what would be a design or observation in the past might no longer be the main focus and thus not discussed.
+
+### Aims
+I hope to solve at least 2 must try questions from each category, solving 3 for harder categories. Note that given categories "XXX (easier" and "XXX (harder)", I will attempt to solve at least 2 questions from the harder category, potentially ignoring the easier category.
