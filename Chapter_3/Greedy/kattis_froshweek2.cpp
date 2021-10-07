@@ -11,7 +11,7 @@ Observation 2:
 
     This greedy solution is optimal.
 
-Time: O(n + m), Mem: O(n + m)
+Time: O(n log n + m log m), Mem: O(n + m). Note that the longest process is actually the sorting
 */
 #include <bits/stdc++.h>
 using namespace std;
