@@ -1,3 +1,9 @@
+/* Kattis - dominoes2
+
+Simple DFS on a directed graph, count number of nodes visited.
+
+Time: O(E + V), Mem: O(E + V)
+*/
 #pragma GCC optimize("Ofast")
 #pragma GCC target("sse,sse2,sse3,ssse3,sse4,popcnt,abm,mmx,avx,avx2,fma")
 #pragma GCC optimize("unroll-loops")
