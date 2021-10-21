@@ -1,3 +1,8 @@
+/* Kattis - texassummers
+Rather standard Dijkstra on a complete graph that we have to generate ourselves. Also, we need to print the path.
+
+Time: O(V^2 log V), Mem: O(V^2)
+*/
 #pragma GCC optimize("Ofast")
 #pragma GCC target("sse,sse2,sse3,ssse3,sse4,popcnt,abm,mmx,avx,avx2,fma")
 #pragma GCC optimize("unroll-loops")
