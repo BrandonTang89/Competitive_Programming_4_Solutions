@@ -120,7 +120,9 @@ int main() {
             dist_to_n[dest - u] = dist[u];
         if (dist_to_n[u] != INF){
             if (dist[u] + dist_to_n[u] < total_dist){
-               ans
+                meet_at = u;
+                total_dist = dist[u] + dist_to_n[u];
+            }
             continue;
         }
         for (int i=0; i < e; i++) {
