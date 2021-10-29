@@ -59,7 +59,7 @@ Idea 1:
     This allows for O(1) rather than O(log V) insert of new nodes and access of the closest node!
 
 Further Optimisations:
-- use pair rather than tuple, it is significantly faster
+- use tuple rather than pair, it is somewhat faster (by 0.02 seconds) 
 - use int rather than long long, it is significantly faster
 - use Ofast compilation flag, not essential but helps
 
@@ -77,11 +77,12 @@ Memory: O(V + k)
 using namespace std;
 
 int e, dest, u, v, temp_d, w, delta, INF = (int) 1e8;
-vector<pair<int, int>> cheers; // d, weight, note that pairs are faster than tuples
+vector<tuple<int, int>> cheers; // d, weight, note that pairs are faster than tuples
 vector<int> dist, dist_to_n,parent; 
 vector<queue<int>> q; 
 int main() {
     scanf("%d %d", &e, &dest);
+    cheers.reserve(e+1);
     cheers.emplace_back(1, 1);
     int min_cheer = 0;
     for (int i = 0; i < e; i++) {
@@ -126,8 +127,7 @@ int main() {
             continue;
         }
         for (int i=0; i < e; i++) {
-            delta = cheers[i].first;
-            w = cheers[i].second;
+            auto &[delta, w] = cheers[i];
             v = delta + u;
             if (v <= 0 || v > max_node)continue;
             temp_d = dist[u] + w;
