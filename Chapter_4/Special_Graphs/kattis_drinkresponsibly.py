@@ -1,3 +1,11 @@
+'''
+Kattis - drinkresponsibly
+A relatively straight forward DP question, similar to coin change. We use Python to avoid
+manually handling a hashtable memo to store the results. Also alot of other functions like
+eva() and Counter make the code much cleaner.
+
+Time: O(target_drink * money * n), Mem: O(target_drink * money * n)
+'''
 from functools import lru_cache
 from math import isclose
 from collections import Counter
