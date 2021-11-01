@@ -1,4 +1,5 @@
 /* Kattis - adjoin
+[Note the proper term should be center rather than centroid]
 Given a forest of undirected trees, create a spanning tree with the smallest diameter by
 joining the trees in the forest.
 
