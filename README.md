@@ -27,7 +27,7 @@ Other micro-optimisations that are not important enough to be considered ideas o
 #### Design:
 A way we implement an idea in code to keep the code simple and easy to write.
 
-#### Time and Memory Complexity:
+#### Time and Space Complexity:
 My analysis of the algorithmic order of growth - might not be correct but I tried my best :(
 
 Note that as I solve more problems, what would be a design or observation in the past might no longer be the main focus and thus not discussed.
