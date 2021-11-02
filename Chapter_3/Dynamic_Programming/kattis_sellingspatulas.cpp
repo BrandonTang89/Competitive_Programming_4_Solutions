@@ -1,7 +1,9 @@
 /* Kattis - sellingspatulas
 This problem is simple in theory, but I found alot of problem when trying to use integers to
-represent the profits. Im not sure what the problem was but I decided to change to doubles and then
-it worked?
+represent the profits. 
+After some extensive testing, the problem was a rounding error when converting 2dp float to int
+Instead of just "cur = cur*100", we should use "cur = roundf(cur * 100)" to round to nearest
+incase theres some floating point precision error!
 
 Anyway, the solution is just kadane without much changes. Except to select the answer not just
 based on value but also based on duration and start time.
