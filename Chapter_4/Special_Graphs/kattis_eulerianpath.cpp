@@ -1,4 +1,8 @@
 /* Kattis - Eulerian Path
+[Note: This was my first Eulerian path problem... subsequently I realised that we don't need to modify
+Hierholzer's algorithm, it automatically deals with Eulerian paths as well as cycles. Refer to my Notion
+page for the shorter version of Hierholzer's]
+
  I can't begin to describe my annoyance at this question. To solve this, we need to modify the
  Hierholzer's algorithm to do paths rather than just cycles. I didn't notice that sometimes
  the path would take a cycle with the dummy edge within it, causing me 3+ hours of debugging.
