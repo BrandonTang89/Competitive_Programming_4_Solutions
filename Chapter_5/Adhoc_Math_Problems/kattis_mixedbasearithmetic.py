@@ -9,7 +9,7 @@ divided by the base size. This continues until we reach the front.
 This is where the problem is kinda dumb.. In decimal, the next digit would be 1 if we needed to add
 1 to 9. However, the next digit in the other 2 bases when 1 is added to z or Z is aa or AA, which
 would be like having 1 + 9 = 00. So, we need to remove 1 from the amount to add for everytime
-we add a new digit for the other 2 bases to accout for this.
+we add a new digit for the other 2 bases to account for this.
 
 Time: O(len(ans)), Space: O(len(ans))
 '''
