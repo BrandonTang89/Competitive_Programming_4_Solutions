@@ -4,7 +4,7 @@
  * count it if gcd(a,b) = 1, ie the fraction is in its simplest form. This ensures no double counting
  * and it is trivial to see that the simplest form will be part of the count somewhere else.
  * 
- * Note that for all fractions in the from a/b, for each b, the number of irreductable fractions is
+ * Note that for all fractions in the from a/b, for each b > 2, the number of irreductable fractions is
  * phi(b) where phi is the totient function. Thus, we want to sum phi(i) for all i from 2 to n. then
  * we add 2 for 0/1 and 1/1. This can be precomputed and we can use static range queries.
  * 
