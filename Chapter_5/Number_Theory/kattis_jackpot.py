@@ -3,7 +3,7 @@ Kattis - jackpot
 Simply get the LCM of all numbers. Note the property that LCM(a, b, c, ...) = LCM(LCM(a, b), c, ...)
 GCD also has this property.
 
-Time: O(n), Space: O(n)
+Time: O(n * log(INT_MAX)) Space O(n), Assuming Euclidean algorithm is O(log (INT_MAX))
 '''
 from math import gcd
 def lcm(a, b):
