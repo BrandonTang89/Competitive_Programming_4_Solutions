@@ -1,5 +1,5 @@
 # Kattis_CP4_Solutions
-My solutions to some of the Kattis problems listed in [Competitive Programming 4](https://cpbook.net/). 
+My solutions to some of the Kattis problems listed in [Competitive Programming 4](https://cpbook.net/details?cp=4). 
 
 The C++ code is written to be compiled using with g++ (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0
 <pre>g++ -std=c++17 -O2 kattis_xxx.cpp -o kattis_xxx && kattis_xxx</pre>
