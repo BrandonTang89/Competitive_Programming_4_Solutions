@@ -20,6 +20,7 @@ The solution files contain documentation of several different categories.
 | Time & Space Complexity | My analysis of the algorithmic order of growth |
 
 # List of Kattis Questions Solved
+![Auto Update](https://github.com/BrandonTang89/Kattis_CP4_Solutions/actions/workflows/Update_README.yml/badge.svg)
 | Index | Question Title | Solution |
 | ----- | -------------- | -------- |
 | 1 | [10kindsofpeople](https://open.kattis.com/problems/10kindsofpeople) | [C++](https://github.com/BrandonTang89/Kattis_CP4_Solutions/blob/main/Chapter_4/Graph_Traversal/kattis_10kindsofpeople.cpp) |
