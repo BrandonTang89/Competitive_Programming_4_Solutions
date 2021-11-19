@@ -17,4 +17,7 @@ jobs:
       with:
         python-version: "3.10"
     - name: Run readme_generator.py 
-      run: python3 readme_generator.py > README.md
+      run: |
+        cd Kattis_CP4_Solutions
+        python3 readme_generator.py > README.md
+        
