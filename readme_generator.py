@@ -57,7 +57,7 @@ for index, (q_name, sol, task) in enumerate(things_to_write):
     
     line = f"| {index+1} | [{q_name}]({task}) | "
     for solution_type, solution in solution_types:
-        line += f"[{solution_type}]({sol}), " 
+        line += f"[{solution_type}]({solution}), " 
     
     line = line[:-2] + " |"
     print(line)
