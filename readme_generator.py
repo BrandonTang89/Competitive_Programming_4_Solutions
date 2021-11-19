@@ -41,8 +41,25 @@ The solution files contain documentation of several different categories.
 | ----- | -------------- | -------- |'''
 
 print(start_of_readme)
+m_file_types = {'C++': 'cpp', 'Python': 'py'}
 
 things_to_write.sort()
+solution_types = []
 for index, (q_name, sol, task) in enumerate(things_to_write):
-    solution_type = "C++" if sol.endswith(".cpp") else "Python"
-    print(f"| {index+1} | [{q_name}]({task}) | [{solution_type}]({sol}) |")
+    for k, v in m_file_types.items():
+        if (sol.endswith(v)):
+            solution_types.append((k, sol))
+            break
+    
+    if (index != len(things_to_write) - 1):
+        if (things_to_write[index+1][2] == task):
+            continue
+    
+    line = f"| {index+1} | [{q_name}]({task}) | "
+    for solution_type, solution in solution_types:
+        line += f"[{solution_type}]({sol}), " 
+    
+    line = line[:-2] + " |"
+    print(line)
+    
+    solution_types.clear()
