@@ -4,7 +4,7 @@ My solutions to some of the Kattis problems listed in [Competitive Programming 4
 The C++ code is written to be compiled using with g++ (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0
 <pre>g++ -std=c++17 -O2 kattis_xxx.cpp -o kattis_xxx && kattis_xxx</pre>
 
-Python code is executed using Cpython 3.8+ on my Machine but will work on the 3.6 of Kattis
+Python code is executed using Cpython 3.8+ on my machine but will work on the 3.6 of Kattis
 <pre>/bin/python3 kattis_xxx.py</pre>
 
 ## Documentation
