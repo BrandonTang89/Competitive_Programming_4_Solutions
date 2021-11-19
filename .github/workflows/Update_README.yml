@@ -20,4 +20,10 @@ jobs:
       run: |
         python3 readme_generator.py > README.md
         python3 readme_generator.py
+    - name: Commit Changes
+      run: |
+        git config --global user.name 'BrandonTang89'
+        git config --global user.email 'BrandonTang89@users.noreply.github.com'
+        git commit -am "Updated README.md"
+        git push
         
