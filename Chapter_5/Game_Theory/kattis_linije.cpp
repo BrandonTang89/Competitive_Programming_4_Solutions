@@ -22,7 +22,7 @@
  * Slavko will win if and only if there exist a perfect matching on the graph.
  * 
  * If there exist a perfect matching, then for any first node selcted by Mirko, we just follow the
- * matching to a corresponding node. Mirko will then move to another unvited node, we again follow
+ * matching to a corresponding node. Mirko will then move to another unvisited node, we again follow
  * its matching to a corresponding node, and so on. Eventually, all the nodes will be visited and
  * Mirko will have no more univisted nodes to go to, thus Slavko will win.
  * 
