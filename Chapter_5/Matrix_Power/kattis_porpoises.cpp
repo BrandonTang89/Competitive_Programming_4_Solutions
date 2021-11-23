@@ -1,3 +1,8 @@
+/** Kattis - porpoises
+ * Basic fibonacci with matrix exponentiation :)
+ * 
+ * Time: O(log n), Space: O(1)
+ */
 #pragma GCC optimize("Ofast")
 #pragma GCC target("sse,sse2,sse3,ssse3,sse4,popcnt,abm,mmx,avx,avx2,fma")
 #pragma GCC optimize("unroll-loops")
