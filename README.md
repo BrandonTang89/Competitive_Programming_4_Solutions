@@ -284,3 +284,4 @@ The solution files contain documentation of several different categories.
 | 260 | [xyzzy](https://open.kattis.com/problems/xyzzy) | [C++](https://github.com/BrandonTang89/Kattis_CP4_Solutions/blob/main/Chapter_4/SSSP/kattis_xyzzy.cpp) |
 | 261 | [yoda](https://open.kattis.com/problems/yoda) | [Python](https://github.com/BrandonTang89/Kattis_CP4_Solutions/blob/main/Chapter_5/Adhoc_Math_Problems/kattis_yoda.py) |
 | 262 | [zagrade](https://open.kattis.com/problems/zagrade) | [C++](https://github.com/BrandonTang89/Kattis_CP4_Solutions/blob/main/Chapter_3/Complete_Search/kattis_zagrade.cpp) |
+| 263 | [zipfslaw](https://open.kattis.com/problems/zipfslaw) | [Python](https://github.com/BrandonTang89/Kattis_CP4_Solutions/blob/main/Chapter_6/Ahoc_String_(Harder)/kattis_zipfslaw.py) |
