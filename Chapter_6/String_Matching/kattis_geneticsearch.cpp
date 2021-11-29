@@ -1,3 +1,9 @@
+/**Kattis - geneticsearch
+ * It is probably overkill to use KMP for this string matching problem, but since it is an easy
+ * problem, its a good cchance to write a proper KMP implementation.
+ * 
+ * Time: O((n + m) * m), Space: O(m^2 + n)
+ */
 #pragma GCC optimize("Ofast")
 #pragma GCC target("sse,sse2,sse3,ssse3,sse4,popcnt,abm,mmx,avx,avx2,fma")
 #pragma GCC optimize("unroll-loops")
