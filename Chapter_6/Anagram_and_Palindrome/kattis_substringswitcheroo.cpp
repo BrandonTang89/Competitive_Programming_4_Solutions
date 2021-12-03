@@ -20,7 +20,7 @@ using namespace std;
     cout.tie(NULL);
 
 pair<bool, int> find_length_k_common_anagram(string A, string B, int k) {
-    // O(n log n) returns whether can, and index in A
+    // O(n log n) returns whether can, and index in B
     if (k == 0) return {true, 0};
     int n = A.size();          // same length
     set<vector<int>> seen;     // set of seen anagrams
@@ -60,7 +60,7 @@ int main() {
         // Binary search for largest k
         bool done = false;
         for (int l = A.size(); l > 0; l--) {
-            pair<bool, int> ans = find_length_k_common_anagram(B, A, l);
+            pair<bool, int> ans = find_length_k_common_anagram(B, A, l); // Swap A and B since we want index in A
             if (ans.first) {
                 cout << A.substr(ans.second, l) << endl;
                 done = true;
