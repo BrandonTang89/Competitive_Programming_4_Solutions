@@ -1,3 +1,12 @@
+/**Kattis - kaleidoscopicpalindromes
+ * We use a complete search solution, this is alright since a siginificant number of numbers won't even
+ * be a binary palindrome, let alone a ternary palindrome etc etc. Note that we can compare the digits
+ * of a number in a different base without the overhead of actually converting it into a vector.
+ * 
+ * Specifically, the ith digit of n in base b is (n / b^(i-1)) % b.
+ * 
+ * Time: O(? kinda output dependant), Space: O(1)
+ */
 #pragma GCC optimize("Ofast")
 #pragma GCC target("sse,sse2,sse3,ssse3,sse4,popcnt,abm,mmx,avx,avx2,fma")
 #pragma GCC optimize("unroll-loops")

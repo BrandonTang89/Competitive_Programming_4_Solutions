@@ -1,3 +1,12 @@
+/**Kattis - palindromesubstring
+ * Here we are checking for all non-trivial palindrome substrings in a given string. Since there
+ * are multiple overlapping sub-problems when checking for palindromic substrings, we use DP
+ * with state (i,j) which are the starting and ending points of the substring. Then for each possible
+ * substring, we check if it is a palindrome. If it is, we add it to a set which is used to sort
+ * and make the results unique.
+ * 
+ * Time: O(n^2), Space: O(n^2)
+ */
 #pragma GCC optimize("Ofast")
 #pragma GCC target("sse,sse2,sse3,ssse3,sse4,popcnt,abm,mmx,avx,avx2,fma")
 #pragma GCC optimize("unroll-loops")
