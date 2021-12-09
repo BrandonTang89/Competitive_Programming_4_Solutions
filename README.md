@@ -331,8 +331,9 @@ The solution files contain documentation of several different categories.
 | 307 | [virus](https://open.kattis.com/problems/virus) | [C++](https://github.com/BrandonTang89/Kattis_CP4_Solutions/blob/main/Chapter_3/Greedy/kattis_virus.cpp) |
 | 308 | [walrusweights](https://open.kattis.com/problems/walrusweights) | [C++](https://github.com/BrandonTang89/Kattis_CP4_Solutions/blob/main/Chapter_3/Dynamic_Programming/kattis_walrusweights.cpp) |
 | 309 | [wizardofodds](https://open.kattis.com/problems/wizardofodds) | [Python](https://github.com/BrandonTang89/Kattis_CP4_Solutions/blob/main/Chapter_2/Linear_DS_with_Built-in_Libraries/kattis_wizardofodds.py) |
-| 310 | [workstations](https://open.kattis.com/problems/workstations) | [C++](https://github.com/BrandonTang89/Kattis_CP4_Solutions/blob/main/Chapter_3/Greedy/kattis_workstations.cpp) |
-| 311 | [xyzzy](https://open.kattis.com/problems/xyzzy) | [C++](https://github.com/BrandonTang89/Kattis_CP4_Solutions/blob/main/Chapter_4/SSSP/kattis_xyzzy.cpp) |
-| 312 | [yoda](https://open.kattis.com/problems/yoda) | [Python](https://github.com/BrandonTang89/Kattis_CP4_Solutions/blob/main/Chapter_5/Adhoc_Math_Problems/kattis_yoda.py) |
-| 313 | [zagrade](https://open.kattis.com/problems/zagrade) | [C++](https://github.com/BrandonTang89/Kattis_CP4_Solutions/blob/main/Chapter_3/Complete_Search/kattis_zagrade.cpp) |
-| 314 | [zipfslaw](https://open.kattis.com/problems/zipfslaw) | [Python](https://github.com/BrandonTang89/Kattis_CP4_Solutions/blob/main/Chapter_6/Ahoc_String_(Harder)/kattis_zipfslaw.py) |
+| 310 | [workout](https://open.kattis.com/problems/workout) | [Python](https://github.com/BrandonTang89/Kattis_CP4_Solutions/blob/main/Chapter_1/Adhoc_Problems/kattis_workout.py) |
+| 311 | [workstations](https://open.kattis.com/problems/workstations) | [C++](https://github.com/BrandonTang89/Kattis_CP4_Solutions/blob/main/Chapter_3/Greedy/kattis_workstations.cpp) |
+| 312 | [xyzzy](https://open.kattis.com/problems/xyzzy) | [C++](https://github.com/BrandonTang89/Kattis_CP4_Solutions/blob/main/Chapter_4/SSSP/kattis_xyzzy.cpp) |
+| 313 | [yoda](https://open.kattis.com/problems/yoda) | [Python](https://github.com/BrandonTang89/Kattis_CP4_Solutions/blob/main/Chapter_5/Adhoc_Math_Problems/kattis_yoda.py) |
+| 314 | [zagrade](https://open.kattis.com/problems/zagrade) | [C++](https://github.com/BrandonTang89/Kattis_CP4_Solutions/blob/main/Chapter_3/Complete_Search/kattis_zagrade.cpp) |
+| 315 | [zipfslaw](https://open.kattis.com/problems/zipfslaw) | [Python](https://github.com/BrandonTang89/Kattis_CP4_Solutions/blob/main/Chapter_6/Ahoc_String_(Harder)/kattis_zipfslaw.py) |
