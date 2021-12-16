@@ -1,3 +1,8 @@
+/**Kattis - goodmorning
+ * Relatively simple backtracking problem.
+ * 
+ * Time: O(1000) since we get to at most 4 digits of numbers, Space: O(1)
+ */
 #pragma GCC optimize("Ofast")
 #pragma GCC target("sse,sse2,sse3,ssse3,sse4,popcnt,abm,mmx,avx,avx2,fma")
 #pragma GCC optimize("unroll-loops")
