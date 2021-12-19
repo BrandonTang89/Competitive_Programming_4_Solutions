@@ -8,6 +8,7 @@ arr = []
 for i in range(4):
     arr.extend(list(input().split()))
 
+hasset = False
 for i in range(12):
     for j in range(i+1, 12):
         for k in range(j+1, 12):
@@ -18,4 +19,8 @@ for i in range(12):
                     break
             else:
                 print(i+1, j+1, k+1)
+                hasset = True
+
+if not hasset:
+    print('no sets')
                 
