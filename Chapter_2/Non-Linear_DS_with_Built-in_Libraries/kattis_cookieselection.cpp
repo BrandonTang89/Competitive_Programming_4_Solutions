@@ -1,3 +1,9 @@
+/**Kattis - cookieselection
+ * Relatively simple dynamic order statistic tree problem. Just ensure that we allow duplicate values
+ * in the tree and that we use long long. 
+ * 
+ * Time: O(n log n), Space: O(n)
+ */
 #pragma GCC optimize("Ofast")
 #pragma GCC target("sse,sse2,sse3,ssse3,sse4,popcnt,abm,mmx,avx,avx2,fma")
 #pragma GCC optimize("unroll-loops")
