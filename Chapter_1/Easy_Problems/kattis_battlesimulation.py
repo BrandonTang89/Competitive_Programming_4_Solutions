@@ -1,23 +1,25 @@
 '''
 Kattis - battlesimulation
-Something like a sliding window.
+Something like a sliding window. Note to use ans as a list rather than a string since string + string takes O(length of combined string) to do.
 
 Time: O(n), Space: O(n)
 '''
 s = input()
-s = s.replace('R', 'S')
-s = s.replace('L', 'H')
-s = s.replace('B', 'K')
 
 hashmap = {
-    "SKH",
-    "SHK",
-    "HSK",
-    "HKS",
-    "KHS",
-    "KSH"
+    "RBL",
+    "RLB",
+    "LRB",
+    "LBR",
+    "BLR",
+    "BRL"
 }
-ans = ""
+hashmap2 = {
+    'R': 'S',
+    'B': 'K',
+    'L': 'H',
+}
+ans =  [""]
 q = ""
 for c in s:
     if len(q) < 2:
@@ -25,11 +27,12 @@ for c in s:
         continue
     q += c
     if q in hashmap:
-        ans += 'C'
+        ans.append('C')
         q = ""
     else:
-        ans += q[0]
+        ans.append( hashmap2[q[0]])
         q = q[1:]
 
-ans += q
-print(ans)
+for c in q:
+    ans.append(hashmap2[c])
+print("".join(ans))
