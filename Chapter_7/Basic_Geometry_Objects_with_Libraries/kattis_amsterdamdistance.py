@@ -9,6 +9,8 @@ Thus, we can be sure that there exist an optimal path of the form: move from sta
 that is at least as in as the most in as the inner of the start and end. Then move along that
 ring until in line with the end then go to the end. So we just need to try all rings
 inner than the more inner of the start and end.
+
+Time: O(n), Space: O(1)
 '''
 m, n, r = input().split()
 n, m = int(n), int(m)
