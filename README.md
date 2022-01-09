@@ -193,7 +193,7 @@ The solution files contain documentation of several different categories.
 | 169 | [filip](https://open.kattis.com/problems/filip) | [Python](https://github.com/BrandonTang89/Kattis_CP4_Solutions/blob/main/Chapter_1/Easy_Problems/kattis_filip.py) |
 | 170 | [fire2](https://open.kattis.com/problems/fire2) | [C++](https://github.com/BrandonTang89/Kattis_CP4_Solutions/blob/main/Chapter_4/SSSP/kattis_fire2.cpp) |
 | 171 | [firefly](https://open.kattis.com/problems/firefly) | [C++](https://github.com/BrandonTang89/Kattis_CP4_Solutions/blob/main/Chapter_3/Divide_and_Conquer/kattis_firefly.cpp) |
-| 172 | [fizzbuzz](https://open.kattis.com/problems/fizzbuzz) | [Python](https://github.com/BrandonTang89/Kattis_CP4_Solutions/blob/main/kattis_fizzbuzz.py) |
+| 172 | [fizzbuzz](https://open.kattis.com/problems/fizzbuzz) | [Python](https://github.com/BrandonTang89/Kattis_CP4_Solutions/blob/main/Chapter_1/Easy_Problems/kattis_fizzbuzz.py) |
 | 173 | [flagquiz](https://open.kattis.com/problems/flagquiz) | [Python](https://github.com/BrandonTang89/Kattis_CP4_Solutions/blob/main/Chapter_2/Linear_DS_with_Built-in_Libraries/kattis_flagquiz.py) |
 | 174 | [flight](https://open.kattis.com/problems/flight) | [C++](https://github.com/BrandonTang89/Kattis_CP4_Solutions/blob/main/Chapter_4/Special_Graphs/kattis_flight.cpp) |
 | 175 | [flippingcards](https://open.kattis.com/problems/flippingcards) | [C++](https://github.com/BrandonTang89/Kattis_CP4_Solutions/blob/main/Chapter_4/Special_Graphs/kattis_flippingcards.cpp) |
