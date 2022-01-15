@@ -42,7 +42,7 @@ The solution files contain documentation of several different categories.
 | ----- | -------------- | -------- |'''
 
 print(start_of_readme)
-m_file_types = {'C++': 'cpp', 'Python': 'py'}
+m_file_types = {'C++': 'cpp', 'Python': 'py', 'Haskell': 'hs'}
 
 things_to_write.sort()
 solution_types = []
