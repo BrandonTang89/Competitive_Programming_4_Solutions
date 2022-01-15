@@ -8,8 +8,8 @@ things_to_write = []
 for line in lines:
     line = line.strip()
 
-    # Matches kattis_xxxx.py or kattis_xxxx.cpp
-    m = re.search(r'\/kattis_(\w*)\.(?:py|cpp)', line)
+    # Matches kattis_xxxx.py or kattis_xxxx.cpp or kattis_xxxx.hs
+    m = re.search(r'\/kattis_(\w*)\.(?:py|cpp|hs)', line)
 
     # First capturing group is the problem name
     things_to_write.append([str(m.group(1)), "https://github.com/BrandonTang89/Kattis_CP4_Solutions/blob/main" +
