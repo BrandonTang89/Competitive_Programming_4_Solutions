@@ -1,4 +1,14 @@
-// #pragma GCC optimize("Ofast")
+/**Kattis - wedding
+ * We can model the problem as a 2-SAT problem. Let Xk be true iff the kth husband sits on the same side as
+ * 0w. 
+ * For every adulterous pair: (ah, bh) =>(Xk or Xb), (aw, bh) => (not Xk or Xb), (aw, bw) => (not Xk or not Xb)
+ * 
+ * To solve the 2-SAT, we can use the fact that we have a solution iff (not Xk is not in the same SCC as Xk
+ * for all k). We use kosaraju for the SCC analysis.
+ * 
+ * Time: O(n+m), Space: O(n+m)
+ */
+#pragma GCC optimize("Ofast")
 #pragma GCC target("sse,sse2,sse3,ssse3,sse4,popcnt,abm,mmx,avx,avx2,fma")
 #pragma GCC optimize("unroll-loops")
 #include <bits/stdc++.h>
