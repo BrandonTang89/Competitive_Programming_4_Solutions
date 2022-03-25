@@ -25,7 +25,7 @@ The solution files contain documentation of several different categories.
 | ----- | -------------- | -------- |
 | 1 | [10kindsofpeople](https://open.kattis.com/problems/10kindsofpeople) | [C++](https://github.com/BrandonTang89/Kattis_CP4_Solutions/blob/main/Chapter_4/Graph_Traversal/kattis_10kindsofpeople.cpp) |
 | 2 | [246greaaat](https://open.kattis.com/problems/246greaaat) | [C++](https://github.com/BrandonTang89/Kattis_CP4_Solutions/blob/main/Chapter_4/Special_Graphs/kattis_246greaaat.cpp) |
-| 3 | [4_thought](https://open.kattis.com/problems/4_thought) | [Python](https://github.com/BrandonTang89/Kattis_CP4_Solutions/blob/main/Extra Questions/kattis_4_thought.py) |
+| 3 | [4_thought](https://open.kattis.com/problems/4_thought) | [Python](https://github.com/BrandonTang89/Kattis_CP4_Solutions/blob/main/Other_Tasks/kattis_4_thought.py) |
 | 4 | [a1paper](https://open.kattis.com/problems/a1paper) | [C++](https://github.com/BrandonTang89/Kattis_CP4_Solutions/blob/main/Chapter_3/Divide_and_Conquer/kattis_a1paper.cpp) |
 | 5 | [abinitio](https://open.kattis.com/problems/abinitio) | [C++](https://github.com/BrandonTang89/Kattis_CP4_Solutions/blob/main/Chapter_2/Data_Structures_With_Our_Own_Libraries/kattis_abinitio.cpp) |
 | 6 | [acm](https://open.kattis.com/problems/acm) | [Python](https://github.com/BrandonTang89/Kattis_CP4_Solutions/blob/main/Chapter_1/Easy_Problems/kattis_acm.py) |
@@ -34,7 +34,7 @@ The solution files contain documentation of several different categories.
 | 9 | [adjoin](https://open.kattis.com/problems/adjoin) | [C++](https://github.com/BrandonTang89/Kattis_CP4_Solutions/blob/main/Chapter_4/Special_Graphs/kattis_adjoin.cpp) |
 | 10 | [administrativeproblems](https://open.kattis.com/problems/administrativeproblems) | [Python](https://github.com/BrandonTang89/Kattis_CP4_Solutions/blob/main/Chapter_2/Non-Linear_DS_with_Built-in_Libraries/kattis_administrativeproblems.py) |
 | 11 | [airconditioned](https://open.kattis.com/problems/airconditioned) | [C++](https://github.com/BrandonTang89/Kattis_CP4_Solutions/blob/main/Chapter_3/Greedy/kattis_airconditioned.cpp) |
-| 12 | [akcija](https://open.kattis.com/problems/akcija) | [C++](https://github.com/BrandonTang89/Kattis_CP4_Solutions/blob/main/Extra Questions/kattis_akcija.cpp) |
+| 12 | [akcija](https://open.kattis.com/problems/akcija) | [C++](https://github.com/BrandonTang89/Kattis_CP4_Solutions/blob/main/Other_Tasks/kattis_akcija.cpp) |
 | 13 | [aliennumbers](https://open.kattis.com/problems/aliennumbers) | [Python](https://github.com/BrandonTang89/Kattis_CP4_Solutions/blob/main/Chapter_5/Adhoc_Math_Problems/kattis_aliennumbers.py) |
 | 14 | [aliens](https://open.kattis.com/problems/aliens) | [C++](https://github.com/BrandonTang89/Kattis_CP4_Solutions/blob/main/Chapter_6/Suffix_Array/kattis_aliens.cpp) |
 | 15 | [allaboutthatbase](https://open.kattis.com/problems/allaboutthatbase) | [Python](https://github.com/BrandonTang89/Kattis_CP4_Solutions/blob/main/Chapter_5/Adhoc_Math_Problems/kattis_allaboutthatbase.py) |
@@ -87,7 +87,7 @@ The solution files contain documentation of several different categories.
 | 63 | [blockgame2](https://open.kattis.com/problems/blockgame2) | [Python](https://github.com/BrandonTang89/Kattis_CP4_Solutions/blob/main/Chapter_5/Game_Theory/kattis_blockgame2.py) |
 | 64 | [bobby](https://open.kattis.com/problems/bobby) | [Python](https://github.com/BrandonTang89/Kattis_CP4_Solutions/blob/main/Chapter_5/Probability/kattis_bobby.py) |
 | 65 | [boggle](https://open.kattis.com/problems/boggle) | [C++](https://github.com/BrandonTang89/Kattis_CP4_Solutions/blob/main/Chapter_6/String_Matching/kattis_boggle.cpp) |
-| 66 | [bokforing](https://open.kattis.com/problems/bokforing) | [C++](https://github.com/BrandonTang89/Kattis_CP4_Solutions/blob/main/Extra Questions/kattis_bokforing.cpp) |
+| 66 | [bokforing](https://open.kattis.com/problems/bokforing) | [C++](https://github.com/BrandonTang89/Kattis_CP4_Solutions/blob/main/Other_Tasks/kattis_bokforing.cpp) |
 | 67 | [bookclub](https://open.kattis.com/problems/bookclub) | [C++](https://github.com/BrandonTang89/Kattis_CP4_Solutions/blob/main/Chapter_4/Special_Graphs/kattis_bookclub.cpp) |
 | 68 | [bookingaroom](https://open.kattis.com/problems/bookingaroom) | [Python](https://github.com/BrandonTang89/Kattis_CP4_Solutions/blob/main/Chapter_2/Linear_DS_with_Built-in_Libraries/kattis_bookingaroom.py) |
 | 69 | [bossbattle](https://open.kattis.com/problems/bossbattle) | [Python](https://github.com/BrandonTang89/Kattis_CP4_Solutions/blob/main/Chapter_1/Easy_Problems/kattis_bossbattle.py) |
