@@ -1,4 +1,4 @@
-/**Kattis - pebblesolitaire
+/**Kattis - pebblesolitaire2
  * This is an interesting DP problem because there's no "basecase". But infinite recursion is prevented
  * since we will not conitnue with dp when theres no more possible moves for a given mask. 
  * 
