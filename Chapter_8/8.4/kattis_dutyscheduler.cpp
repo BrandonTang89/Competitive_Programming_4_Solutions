@@ -1,3 +1,12 @@
+/**Kattis - dutyscheduler
+ * My first max flow problem (excluding that one time i did it in CS3233 2018). Here we are doing an assignment
+ * problem and printing the solution. Model the problem as all the RAs form a left partition of a bipartite graph,
+ * all the days form the right partition. All nodes in the left are conencted to a source by capacity K, all nodes
+ * on the right are connected with capacity 2. If we can have max flow = R*2, then we can have each RA only doing 
+ * K days, We can now BSTA for K, or just try it linearly because K is small.
+ * 
+ * Time: O(R*(R+L)^2*(E)), Space: O(V+E)
+ */
 #pragma GCC optimize("Ofast")
 #pragma GCC target("sse,sse2,sse3,ssse3,sse4,popcnt,abm,mmx,avx,avx2,fma")
 #pragma GCC optimize("unroll-loops")
