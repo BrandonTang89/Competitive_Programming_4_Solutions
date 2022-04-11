@@ -4,12 +4,9 @@
  * are pretty easy. The difficult part comes in the complete search + BSTA + greedy line sweep
  * section. Study the code of the line sweep well, it was not exactly easy to synthesize. Note that
  * our complete search needs to be somewhat smart, we can't afford to check all num_shrine starting
- * positions for the first shrine position. I can't find a logically sound explanation as to
- * why checking every w-th shrine works, but it has some properties that make sense:
- * With more workers, we check less shrines. We check evenly around? Also we won't die
- * from the ez to write testcases where all the first shrines are in a contiguous segment.
- * 
- * Honestly it might be a scam solution lol. But AC is AC.
+ * positions for the first shrine position. Due to the symmetry of the problem (i think lol),
+ * we can just assume that the first shrine is within the first num_shrines/w shrines. This is
+ * very handwavy and might actually be a scam. But ya.
  * 
  * Time: O(n/w * 20), Space: O(n)
  */
@@ -60,7 +57,7 @@ int main() {
         int num_shrines = shrines.size();
 
         ld lowest_dist = 2000 * PI;
-        for (int fst_s_idx = 0; fst_s_idx < num_shrines - w + 1; fst_s_idx += w) {
+        for (int fst_s_idx = 0; fst_s_idx < num_shrines/w + 1; fst_s_idx++) {
             ld lo = 0, hi = 2000 * PI;  // we add the constant of 2 to go to and from center later
             for (int ite = 0; ite < 20; ite++) {
                 ld mid = (lo + hi) / 2;
