@@ -82,7 +82,7 @@ The solution files contain documentation of several different categories.
 | 58 | [bela](https://open.kattis.com/problems/bela) | [Python](https://github.com/BrandonTang89/Kattis_CP4_Solutions/blob/main/Chapter_1/Adhoc_Problems/kattis_bela.py) |
 | 59 | [bestbefore](https://open.kattis.com/problems/bestbefore) | [Python](https://github.com/BrandonTang89/Kattis_CP4_Solutions/blob/main/Chapter_1/Adhoc_Problems/kattis_bestbefore.py) |
 | 60 | [biggest](https://open.kattis.com/problems/biggest) | [C++](https://github.com/BrandonTang89/Kattis_CP4_Solutions/blob/main/Chapter_7/Basic_Geometry_Objects_with_Libraries/kattis_biggest.cpp) |
-| 62 | [bilateral](https://open.kattis.com/problems/bilateral) | [C++](https://github.com/BrandonTang89/Kattis_CP4_Solutions/blob/main/Chapter_8/8.6/kattis_bilateral.cpp), [C++](https://github.com/BrandonTang89/Kattis_CP4_Solutions/blob/main/kattis_bilateral.cpp) |
+| 62 | [bilateral](https://open.kattis.com/problems/bilateral) | [C++](https://github.com/BrandonTang89/Kattis_CP4_Solutions/blob/main/Chapter_8/8.6/kattis_bilateral.cpp), [C++](https://github.com/BrandonTang89/Kattis_CP4_Solutions/blob/main/Chapter_8/8.7/kattis_bilateral.cpp) |
 | 63 | [billiard](https://open.kattis.com/problems/billiard) | [Python](https://github.com/BrandonTang89/Kattis_CP4_Solutions/blob/main/Chapter_7/Basic_Geometry_Objects_with_Libraries/kattis_billiard.py) |
 | 64 | [bing](https://open.kattis.com/problems/bing) | [C++](https://github.com/BrandonTang89/Kattis_CP4_Solutions/blob/main/Chapter_8/8.7/kattis_bing.cpp) |
 | 65 | [birds](https://open.kattis.com/problems/birds) | [C++](https://github.com/BrandonTang89/Kattis_CP4_Solutions/blob/main/Chapter_3/Greedy/kattis_birds.cpp) |
@@ -501,7 +501,7 @@ The solution files contain documentation of several different categories.
 | 479 | [smartphone](https://open.kattis.com/problems/smartphone) | [Python](https://github.com/BrandonTang89/Kattis_CP4_Solutions/blob/main/Chapter_6/Ahoc_String_(Harder)/kattis_smartphone.py) |
 | 480 | [snapperhard](https://open.kattis.com/problems/snapperhard) | [C++](https://github.com/BrandonTang89/Kattis_CP4_Solutions/blob/main/Chapter_2/Linear_DS_with_Built-in_Libraries/kattis_snapperhard.cpp) |
 | 481 | [socialadvertising](https://open.kattis.com/problems/socialadvertising) | [C++](https://github.com/BrandonTang89/Kattis_CP4_Solutions/blob/main/Chapter_8/8.6/kattis_socialadvertising.cpp) |
-| 482 | [sound](https://open.kattis.com/problems/sound) | [C++](https://github.com/BrandonTang89/Kattis_CP4_Solutions/blob/main/Chapter 9/9.2/kattis_sound.cpp) |
+| 482 | [sound](https://open.kattis.com/problems/sound) | [C++](https://github.com/BrandonTang89/Kattis_CP4_Solutions/blob/main/Chapter_9/9.2/kattis_sound.cpp) |
 | 483 | [sparklesseven](https://open.kattis.com/problems/sparklesseven) | [C++](https://github.com/BrandonTang89/Kattis_CP4_Solutions/blob/main/Chapter_8/8.7/kattis_sparklesseven.cpp) |
 | 484 | [spiderman](https://open.kattis.com/problems/spiderman) | [C++](https://github.com/BrandonTang89/Kattis_CP4_Solutions/blob/main/Chapter_3/Dynamic_Programming/kattis_spiderman.cpp) |
 | 485 | [squaredeal](https://open.kattis.com/problems/squaredeal) | [C++](https://github.com/BrandonTang89/Kattis_CP4_Solutions/blob/main/Chapter_3/Complete_Search/kattis_squaredeal.cpp) |
