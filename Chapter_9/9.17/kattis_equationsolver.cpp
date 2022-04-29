@@ -1,3 +1,11 @@
+/**Kattis - equationsolver
+ * Quite a tedious problem with a lot of edge cases if we don't design the code properly.
+ * Just look through the code to see how I dealt with them. But the main part of the
+ * check if to look for parallel lines / planes / higher dimensional lines? And if we
+ * find parallel lines then we check if they are infinite or no solutions.
+ * 
+ * Time: O(n^3), Space: O(n^2)
+ */
 #pragma GCC optimize("Ofast")
 #pragma GCC target("sse,sse2,sse3,ssse3,sse4,popcnt,abm,mmx,avx,avx2,fma")
 #pragma GCC optimize("unroll-loops")
