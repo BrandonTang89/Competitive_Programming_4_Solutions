@@ -1,6 +1,5 @@
-/**Kattis - closestpair1
- * The classic problem. Here we implement the linesweep algorithm which is pretty effective since the
- * points are uniformly distributed!
+/**Kattis - closestpair2
+ * The classic problem. The line sweep algorithm we used previously still works fast enough.
  * 
  * Time: O(im not sure), Space: O(n)
  */
