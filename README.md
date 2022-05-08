@@ -1,10 +1,10 @@
 # Kattis_CP4_Solutions
 My solutions to some of the Kattis problems listed in [Competitive Programming 4](https://cpbook.net/details?cp=4). 
 
-The C++ code is written to be compiled using with g++ (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0
-<pre>g++ -std=c++17 -O2 kattis_xxx.cpp -o kattis_xxx && kattis_xxx</pre>
+The C++ code is written to be compiled using with gcc version 11.2.0 (Ubuntu 11.2.0-19ubuntu1)
+<pre>g++ -std=c++17 kattis_xxx.cpp -o kattis_xxx && kattis_xxx</pre>
 
-Python code is executed using Cpython 3.8+ on my machine but will work on the 3.6 of Kattis
+Python code is executed using Python 3.10.4 on my machine but will work on the 3.6 of Kattis
 <pre>/bin/python3 kattis_xxx.py</pre>
 
 ## Documentation
