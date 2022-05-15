@@ -1,6 +1,6 @@
 # Kattis_CP4_Solutions
 My solutions to some of the [Kattis](https://open.kattis.com/) problems listed in [Competitive Programming 4](https://cpbook.net/details?cp=4).
-Some UVA problems are also solved on [vjudge](https://vjudge.net/)
+Some [UVA Online Judge](https://onlinejudge.org/) problems are also solved on [Virtual Judge](https://vjudge.net/).
 
 The C++ code is written to be compiled using with gcc version 11.2.0 (Ubuntu 11.2.0-19ubuntu1)
 <pre>g++ -std=c++17 kattis_xxx.cpp -o kattis_xxx && kattis_xxx</pre>
@@ -9,8 +9,6 @@ Python code is executed using Python 3.10.4 on my machine but will work on the 3
 <pre>/bin/python3 kattis_xxx.py</pre>
 
 ## Documentation
-The solution files contain documentation of several different categories.
-
 | Category | Description |
 |----------|-------------|
 | Observation | A key insight into the question or our currently considered method that might be needed to come up with a correct algorithm or improve the efficiency of an algorithm. |
@@ -636,7 +634,7 @@ The solution files contain documentation of several different categories.
 | 614 | [yoda](https://open.kattis.com/problems/yoda) | [Python](https://github.com/BrandonTang89/Kattis_CP4_Solutions/blob/main/Chapter_5_Mathematics/Adhoc_Math_Problems/kattis_yoda.py) |
 | 615 | [zagrade](https://open.kattis.com/problems/zagrade) | [C++](https://github.com/BrandonTang89/Kattis_CP4_Solutions/blob/main/Chapter_3_Problem_Solving_Paradigms/Complete_Search/kattis_zagrade.cpp) |
 | 616 | [zipfslaw](https://open.kattis.com/problems/zipfslaw) | [Python](https://github.com/BrandonTang89/Kattis_CP4_Solutions/blob/main/Chapter_6_String_Processing/Ahoc_String_(Harder)/kattis_zipfslaw.py) |
-# List of vjudge Questions Solved
+# List of Virtual Judge Questions Solved
 | Index | Question Title | Solution |
 | ----- | -------------- | -------- |
 | 1 | [UVA-10003](https://vjudge.net/problem/UVA-10003) | [C++](https://github.com/BrandonTang89/Kattis_CP4_Solutions/blob/main/Chapter_9_Rare_Topics/9.23_Dynamic_Programming_Optimization/vjudge_UVA-10003_Cutting_Sticks.cpp) |
