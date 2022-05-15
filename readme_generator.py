@@ -1,20 +1,5 @@
 # Prints out a README.md file for the project
 import re, os
-
-stream = os.popen('find | grep kattis')
-lines = stream.readlines()
-
-things_to_write = []
-for line in lines:
-    line = line.strip()
-
-    # Matches kattis_xxxx.py or kattis_xxxx.cpp or kattis_xxxx.hs
-    m = re.search(r'\/kattis_(\w*)\.(?:py|cpp|hs)', line)
-
-    # First capturing group is the problem name
-    things_to_write.append([str(m.group(1)), "https://github.com/BrandonTang89/Kattis_CP4_Solutions/blob/main" +
-                            line[1:], "https://open.kattis.com/problems/" + str(m.group(1))])
-
 start_of_readme = '''# Kattis_CP4_Solutions
 My solutions to some of the Kattis problems listed in [Competitive Programming 4](https://cpbook.net/details?cp=4). 
 
@@ -44,23 +29,60 @@ The solution files contain documentation of several different categories.
 print(start_of_readme)
 m_file_types = {'C++': 'cpp', 'Python': 'py', 'Haskell': 'hs'}
 
-things_to_write.sort()
-solution_types = []
-for index, (q_name, sol, task) in enumerate(things_to_write):
-    for k, v in m_file_types.items():
-        if (sol.endswith(v)):
-            solution_types.append((k, sol))
-            break
+# Get the Kattis Solutions
+stream = os.popen('find | grep kattis')
+lines = stream.readlines()
+
+things_to_write = []
+for line in lines:
+    line = line.strip()
+
+    # Matches kattis_xxxx.py or kattis_xxxx.cpp or kattis_xxxx.hs
+    m = re.search(r'\/kattis_(\w*)\.(?:py|cpp|hs)', line)
+
+    # First capturing group is the problem name
+    things_to_write.append([str(m.group(1)), "https://github.com/BrandonTang89/Kattis_CP4_Solutions/blob/main" +
+                            line[1:], "https://open.kattis.com/problems/" + str(m.group(1))])
     
-    if (index != len(things_to_write) - 1):
-        if (things_to_write[index+1][2] == task):
-            continue
-    
-    line = f"| {index+1} | [{q_name}]({task}) | "
-    for solution_type, solution in solution_types:
-        line += f"[{solution_type}]({solution}), " 
-    
-    line = line[:-2] + " |"
-    print(line)
-    
-    solution_types.clear()
+
+def print_table():
+    things_to_write.sort()
+    solution_types = []
+    for index, (q_name, sol, task) in enumerate(things_to_write):
+        for k, v in m_file_types.items():
+            if (sol.endswith(v)):
+                solution_types.append((k, sol))
+                break
+        
+        if (index != len(things_to_write) - 1):
+            if (things_to_write[index+1][2] == task):
+                continue
+        
+        line = f"| {index+1} | [{q_name}]({task}) | "
+        for solution_type, solution in solution_types:
+            line += f"[{solution_type}]({solution}), " 
+        
+        line = line[:-2] + " |"
+        print(line)
+        
+        solution_types.clear()
+print_table()
+
+
+things_to_write.clear()
+stream = os.popen('find | grep vjudge')
+lines = stream.readlines()
+for line in lines:
+    line = line.strip()
+
+    # Matches vjudge_xxxx_someothername.someext where the someothername is optional
+    m = re.search(r'\/vjudge_([^_]*)(?:.*).(?:py|cpp|hs)', line)
+
+    # First capturing group is the problem name
+    things_to_write.append([str(m.group(1)), "https://github.com/BrandonTang89/Kattis_CP4_Solutions/blob/main" +
+                            line[1:], "https://vjudge.net/problem/" + str(m.group(1))])
+print('''# List of vjudge Questions Solved
+| Index | Question Title | Solution |
+| ----- | -------------- | -------- |''')
+
+print_table()
