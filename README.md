@@ -1,5 +1,6 @@
 # Kattis_CP4_Solutions
-My solutions to some of the Kattis problems listed in [Competitive Programming 4](https://cpbook.net/details?cp=4). 
+My solutions to some of the [Kattis](https://open.kattis.com/) problems listed in [Competitive Programming 4](https://cpbook.net/details?cp=4).
+Some UVA problems are also solved on [vjudge](https://vjudge.net/)
 
 The C++ code is written to be compiled using with gcc version 11.2.0 (Ubuntu 11.2.0-19ubuntu1)
 <pre>g++ -std=c++17 kattis_xxx.cpp -o kattis_xxx && kattis_xxx</pre>

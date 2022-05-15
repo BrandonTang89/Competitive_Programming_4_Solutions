@@ -1,7 +1,8 @@
 # Prints out a README.md file for the project
 import re, os
 start_of_readme = '''# Kattis_CP4_Solutions
-My solutions to some of the Kattis problems listed in [Competitive Programming 4](https://cpbook.net/details?cp=4). 
+My solutions to some of the [Kattis](https://open.kattis.com/) problems listed in [Competitive Programming 4](https://cpbook.net/details?cp=4).
+Some [UVA Online Judge](https://onlinejudge.org/) problems are also solved on [Virtual Judge](https://vjudge.net/).
 
 The C++ code is written to be compiled using with gcc version 11.2.0 (Ubuntu 11.2.0-19ubuntu1)
 <pre>g++ -std=c++17 kattis_xxx.cpp -o kattis_xxx && kattis_xxx</pre>
@@ -10,8 +11,6 @@ Python code is executed using Python 3.10.4 on my machine but will work on the 3
 <pre>/bin/python3 kattis_xxx.py</pre>
 
 ## Documentation
-The solution files contain documentation of several different categories.
-
 | Category | Description |
 |----------|-------------|
 | Observation | A key insight into the question or our currently considered method that might be needed to come up with a correct algorithm or improve the efficiency of an algorithm. |
@@ -81,7 +80,7 @@ for line in lines:
     # First capturing group is the problem name
     things_to_write.append([str(m.group(1)), "https://github.com/BrandonTang89/Kattis_CP4_Solutions/blob/main" +
                             line[1:], "https://vjudge.net/problem/" + str(m.group(1))])
-print('''# List of vjudge Questions Solved
+print('''# List of Virtual Judge Questions Solved
 | Index | Question Title | Solution |
 | ----- | -------------- | -------- |''')
 
