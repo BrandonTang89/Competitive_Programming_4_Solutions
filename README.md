@@ -1,4 +1,4 @@
-# Kattis_CP4_Solutions
+# Competitive Programming 4 Solutions
 My solutions to some of the [Kattis](https://open.kattis.com/) problems listed in [Competitive Programming 4](https://cpbook.net/details?cp=4).
 Some [UVA Online Judge](https://onlinejudge.org/) problems are also solved on [Virtual Judge](https://vjudge.net/).
 
