@@ -1,6 +1,6 @@
 # Prints out a README.md file for the project
 import re, os
-start_of_readme = '''# Kattis_CP4_Solutions
+start_of_readme = '''# Competitive Programming 4 Solutions
 My solutions to some of the [Kattis](https://open.kattis.com/) problems listed in [Competitive Programming 4](https://cpbook.net/details?cp=4).
 Some [UVA Online Judge](https://onlinejudge.org/) problems are also solved on [Virtual Judge](https://vjudge.net/).
 
