@@ -21,7 +21,7 @@ Python code is executed using Python 3.10.4 on my machine but will work on the 3
 | Time & Space Complexity | My analysis of the algorithmic order of growth |
 
 # List of Kattis Questions Solved
-![Auto Update](https://github.com/BrandonTang89/Kattis_CP4_Solutions/actions/workflows/Update_README.yml/badge.svg)
+![Auto Update](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/actions/workflows/Update_README.yml/badge.svg)
 | Index | Question Title | Solution |
 | ----- | -------------- | -------- |'''
 
@@ -40,7 +40,7 @@ for line in lines:
     m = re.search(r'\/kattis_(\w*)\.(?:py|cpp|hs)', line)
 
     # First capturing group is the problem name
-    things_to_write.append([str(m.group(1)), "https://github.com/BrandonTang89/Kattis_CP4_Solutions/blob/main" +
+    things_to_write.append([str(m.group(1)), "https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main" +
                             line[1:], "https://open.kattis.com/problems/" + str(m.group(1))])
     
 
@@ -78,7 +78,7 @@ for line in lines:
     m = re.search(r'\/vjudge_([^_]*)(?:.*).(?:py|cpp|hs)', line)
 
     # First capturing group is the problem name
-    things_to_write.append([str(m.group(1)), "https://github.com/BrandonTang89/Kattis_CP4_Solutions/blob/main" +
+    things_to_write.append([str(m.group(1)), "https://github.com/BrandonTang89/KatCompetitive_Programming_4_Solutionstis_CP4_Solutions/blob/main" +
                             line[1:], "https://vjudge.net/problem/" + str(m.group(1))])
 print('''# List of Virtual Judge Questions Solved
 | Index | Question Title | Solution |
