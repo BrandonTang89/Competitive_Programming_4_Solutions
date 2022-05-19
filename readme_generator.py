@@ -78,7 +78,7 @@ for line in lines:
     m = re.search(r'\/vjudge_([^_]*)(?:.*).(?:py|cpp|hs)', line)
 
     # First capturing group is the problem name
-    things_to_write.append([str(m.group(1)), "https://github.com/BrandonTang89/KatCompetitive_Programming_4_Solutionstis_CP4_Solutions/blob/main" +
+    things_to_write.append([str(m.group(1)), "https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main" +
                             line[1:], "https://vjudge.net/problem/" + str(m.group(1))])
 print('''# List of Virtual Judge Questions Solved
 | Index | Question Title | Solution |
