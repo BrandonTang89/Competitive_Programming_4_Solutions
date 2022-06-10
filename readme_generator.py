@@ -26,7 +26,7 @@ Python code is executed using Python 3.10.4 on my machine but will work on the 3
 | ----- | -------------- | -------- |'''
 
 print(start_of_readme)
-m_file_types = {'C++': 'cpp', 'Python': 'py', 'Haskell': 'hs'}
+m_file_types = {'C++': 'cpp', 'Python': 'py', 'Haskell': 'hs', 'C': 'c'}
 
 # Get the Kattis Solutions
 stream = os.popen('find | grep kattis')
@@ -37,7 +37,7 @@ for line in lines:
     line = line.strip()
 
     # Matches kattis_xxxx.py or kattis_xxxx.cpp or kattis_xxxx.hs
-    m = re.search(r'\/kattis_(\w*)\.(?:py|cpp|hs)', line)
+    m = re.search(r'\/kattis_(\w*)\.(?:py|cpp|hs|c)', line)
 
     # First capturing group is the problem name
     things_to_write.append([str(m.group(1)), "https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main" +
