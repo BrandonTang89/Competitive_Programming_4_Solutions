@@ -1,3 +1,8 @@
+/**Kattis -longincsubseq
+ * Just the classic, print solution (but the indices rather than the actual values.)
+ *
+ * Time: O(n log n), Space: O(n)
+ */
 #pragma GCC optimize("Ofast")
 #pragma GCC target("sse,sse2,sse3,ssse3,sse4,popcnt,abm,mmx,avx,avx2,fma")
 #pragma GCC optimize("unroll-loops")
