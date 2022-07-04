@@ -695,12 +695,13 @@ Python code is executed using Python 3.10.4 on my machine but will work on the 3
 | 675 | [wizardofodds](https://open.kattis.com/problems/wizardofodds) | [Python](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Chapter_2_Data_Structures/Linear_DS_with_Built-in_Libraries/kattis_wizardofodds.py) |
 | 676 | [wordcloud](https://open.kattis.com/problems/wordcloud) | [Python](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Chapter_1_Introduction/Adhoc_Problems/kattis_wordcloud.py) |
 | 677 | [wordclouds](https://open.kattis.com/problems/wordclouds) | [C++](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Chapter_3_Problem_Solving_Paradigms/Dynamic_Programming/kattis_wordclouds.cpp) |
-| 678 | [workout](https://open.kattis.com/problems/workout) | [Python](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Chapter_1_Introduction/Adhoc_Problems/kattis_workout.py) |
-| 679 | [workstations](https://open.kattis.com/problems/workstations) | [C++](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Chapter_3_Problem_Solving_Paradigms/Greedy/kattis_workstations.cpp) |
-| 680 | [xyzzy](https://open.kattis.com/problems/xyzzy) | [C++](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Chapter_4_Graph/SSSP/kattis_xyzzy.cpp) |
-| 681 | [yoda](https://open.kattis.com/problems/yoda) | [Python](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Chapter_5_Mathematics/Adhoc_Math_Problems/kattis_yoda.py) |
-| 682 | [zagrade](https://open.kattis.com/problems/zagrade) | [C++](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Chapter_3_Problem_Solving_Paradigms/Complete_Search/kattis_zagrade.cpp) |
-| 683 | [zipfslaw](https://open.kattis.com/problems/zipfslaw) | [Python](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Chapter_6_String_Processing/Ahoc_String_(Harder)/kattis_zipfslaw.py) |
+| 678 | [wordspin](https://open.kattis.com/problems/wordspin) | [C++](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Chapter_3_Problem_Solving_Paradigms/Greedy/kattis_wordspin.cpp) |
+| 679 | [workout](https://open.kattis.com/problems/workout) | [Python](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Chapter_1_Introduction/Adhoc_Problems/kattis_workout.py) |
+| 680 | [workstations](https://open.kattis.com/problems/workstations) | [C++](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Chapter_3_Problem_Solving_Paradigms/Greedy/kattis_workstations.cpp) |
+| 681 | [xyzzy](https://open.kattis.com/problems/xyzzy) | [C++](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Chapter_4_Graph/SSSP/kattis_xyzzy.cpp) |
+| 682 | [yoda](https://open.kattis.com/problems/yoda) | [Python](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Chapter_5_Mathematics/Adhoc_Math_Problems/kattis_yoda.py) |
+| 683 | [zagrade](https://open.kattis.com/problems/zagrade) | [C++](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Chapter_3_Problem_Solving_Paradigms/Complete_Search/kattis_zagrade.cpp) |
+| 684 | [zipfslaw](https://open.kattis.com/problems/zipfslaw) | [Python](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Chapter_6_String_Processing/Ahoc_String_(Harder)/kattis_zipfslaw.py) |
 # List of Virtual Judge Questions Solved
 | Index | Question Title | Solution |
 | ----- | -------------- | -------- |
