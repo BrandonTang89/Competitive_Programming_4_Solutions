@@ -1,3 +1,9 @@
+'''
+Kattis - treasurehunt
+Easy enough question, just simulate and keep track of whether we revist a node.
+
+Time: O(hw), Space: O(hw)
+'''
 h, w = map(int, input().split())
 grid = [list(input()) for _ in range(h)]
 
