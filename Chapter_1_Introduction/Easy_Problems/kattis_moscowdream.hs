@@ -1,3 +1,7 @@
+-- Kattis - moscowdream
+-- Simply use a few ifs put together
+
+-- Time: O(1), Space: O(1)
 main :: IO ()
 main = do
     args <- getLine
