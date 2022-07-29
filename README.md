@@ -734,6 +734,7 @@ Python code is executed using Python 3.10.4 on my machine but will work on the 3
 | 714 | [yoda](https://open.kattis.com/problems/yoda) | [Python](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Chapter_5_Mathematics/Adhoc_Math_Problems/kattis_yoda.py) |
 | 715 | [zagrade](https://open.kattis.com/problems/zagrade) | [C++](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Chapter_3_Problem_Solving_Paradigms/Complete_Search/kattis_zagrade.cpp) |
 | 716 | [zipfslaw](https://open.kattis.com/problems/zipfslaw) | [Python](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Chapter_6_String_Processing/Ahoc_String_(Harder)/kattis_zipfslaw.py) |
+| 717 | [zipline](https://open.kattis.com/problems/zipline) | [C++](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Chapter_3_Problem_Solving_Paradigms/Divide_and_Conquer/kattis_zipline.cpp) |
 # List of Virtual Judge Questions Solved
 | Index | Question Title | Solution |
 | ----- | -------------- | -------- |
