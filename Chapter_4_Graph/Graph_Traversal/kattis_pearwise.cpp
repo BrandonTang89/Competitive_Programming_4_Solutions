@@ -1,3 +1,20 @@
+/**kattis - pearwise
+ * It can be shown that a player can win iff there exist a dfs spanning tree with itself as the
+ * root. 
+ * 
+ * If we have a DFS spanning tree from a candidate node E, we construct a valid sequence by
+ * processing nodes in decreasing distance from E. We exhaust all the nodes in the lowest level,
+ * before moving to the next lowest level and so on. We start by selecting an arbitary lowest level
+ * leaf and visit all other lowest level leaves in an arbitary order. We will be left with a single
+ * leaf and then we can select its parent (which will win against it), moving us 1 level up. We
+ * repeat this until we reach the root. Thus any node E which is connected to all other nodes can
+ * win. 
+ * 
+ * If a node E is not connected to some node V, then upon V being visited, we are unable to get
+ * E to win after.
+ *
+ * Time: O(n^3*m), Space: O(nm)
+ */
 #pragma GCC optimize("Ofast")
 #pragma GCC target("sse,sse2,sse3,ssse3,sse4,popcnt,abm,mmx,avx,avx2,fma")
 #pragma GCC optimize("unroll-loops")
@@ -6,10 +23,6 @@ using namespace std;
 
 typedef long long ll;
 typedef vector<int> vi;
-#define fast_cin()                    \
-    ios_base::sync_with_stdio(false); \
-    cin.tie(NULL);                    \
-    cout.tie(NULL);
 
 int n, m;
 vector<vector<int>> adjmat;
@@ -18,9 +31,9 @@ vector<pair<int, string>> ballots;
 vector<int> visited;
 void dfs(int u) {
     visited[u] = 1;
-    for (int i=0; i<n; i++){
-        if (i == u || adjmat[u][i] != 1)continue;
-        if (visited[i] == 1)continue;
+    for (int i = 0; i < n; i++) {
+        if (i == u || adjmat[u][i] != 1) continue;
+        if (visited[i] == 1) continue;
         dfs(i);
     }
 }
