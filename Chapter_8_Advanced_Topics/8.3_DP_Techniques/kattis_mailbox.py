@@ -1,6 +1,6 @@
 '''
 Kattis - mailbox
-The let dp(k, l, r) be the minimum cost with k mailboxes, and we need to test [l, r).
+We let dp(k, l, r) be the minimum cost with k mailboxes, and we need to test [l, r).
 We try all possible number of firecrackers within l, r and take the best position test.
 The recurrences are not exactly trivial to get right but the sample testcase is good
 to debug.
