@@ -7,7 +7,7 @@ that is also the global minimum. We could use golden section search at this stag
 search will suffice (linear convergence as well) and it is faster to code.
 
 Also you can just solve the equation analytically to find the single minimum lol.
-Time: O(1), Space: O(1).
+Time: O(1), Space: O(n).
 '''
 n = int(input())
 points = [map(int, input().split()) for _ in range(n)]
