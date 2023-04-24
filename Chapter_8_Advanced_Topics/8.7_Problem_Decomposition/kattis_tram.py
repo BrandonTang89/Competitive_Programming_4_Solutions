@@ -6,16 +6,18 @@ Observe that f is convex since it is the sum of convex functions so there is a s
 that is also the global minimum. We could use golden section search at this stage, but a simple ternary 
 search will suffice (linear convergence as well) and it is faster to code.
 
+Also you can just solve the equation analytically to find the single minimum lol.
 Time: O(1), Space: O(1).
 '''
 n = int(input())
 points = [map(int, input().split()) for _ in range(n)]
-points = [(x, y) for x, y in points]
+print(sum([y - x for x, y in points]) / n)
 
+'''
+points = [(x, y) for x, y in points]
 
 def f(a):
     return sum([(x-y+a)**2 for x, y in points])
-
 
 lo = -1e6
 hi = 1e6
@@ -29,3 +31,4 @@ while hi - lo > 1e-6:
         lo = m1
 
 print("%.9f" % (lo))
+'''
