@@ -17,7 +17,7 @@
  * the next point cannot be covered together with p. Then when we move to the next point that can't
  * be covered, repeat the process. However, there is an issue in that we don't know where to start
  * covering (i.e. the optimal solution might cover point n-1 and 0 with 1 line so we can't just
- * start with point 0).  Fortunuatelly, we can just try all points as the starting point and take
+ * start with point 0).  Fortunately, we can just try all points as the starting point and take
  * the best answer.
  *
  * Time: O(n^2), Space: O(n)
