@@ -1,7 +1,7 @@
 /**Kattis - unlockpattern2
  * Extremely tedious question. Had to choose between generating the map programmatically using the
  * geom libary or just doing it by hand. I did it by hand but idk if it was the right choice. The
- * main idea is to generate all possible paths and then check if the path is valid. Just use a simple
+ * main idea is to generate all possible paths while ensuring that the path is valid. Just use a simple
  * recursive backtracking with pruning to generate all possible paths. Should be quite straightforward.
  * 
  * Time: O(9!), Space: O(9!)
