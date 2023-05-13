@@ -24,10 +24,9 @@
  *
  * Then we just compute the penalty. This is achived in O(c) via some math (arithmetic progression)
  * by counting the penalties for all problems that take the same time to solve all at once. There is
- * an issue where we are multiplying 2 numbers (timeThusFar * numTake <= 1e18 * 1e9) that may
- * overflow the long long limit. As such, we need to use 128 bit integers for these numbers. This is
- * a major debugging issue.
- * 
+ * an issue where we are multiplying 2 numbers (timeThusFar * numTake <= 1e18 * 1e9). We should
+ * apply mod to timeThusFar before multiplying by numTake to avoid overflow. Or use 128 bit ints.
+ *
  * Time: O(c + log n * log c), Space: O(c)
  */
 #pragma GCC optimize("Ofast")
@@ -122,8 +121,8 @@ int main()
         }
     }
     ll penalty = 0;
-    __int128 timeThusFar = 0;
-    __int128 numTake = 0;
+    ll timeThusFar = 0;
+    ll numTake = 0;
     int MOD = 1e9 + 7;
     int curIndex = 0;
     for (int i = 0; i < l;) {
@@ -131,7 +130,7 @@ int main()
             curIndex++;
         }
         numTake = min(countingArr[curIndex], l - i);
-        penalty += (timeThusFar * numTake) % MOD;
+        penalty += ((timeThusFar % MOD) * numTake) % MOD;
         penalty %= MOD;
         penalty += (curIndex * ((numTake * (numTake + 1)) / 2LL) % MOD) % MOD;
         penalty %= MOD;
