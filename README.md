@@ -925,12 +925,13 @@ Python code is executed using Python 3.10.4 on my machine but will work on the 3
 | 905 | [workout](https://open.kattis.com/problems/workout) | [Python](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Chapter_1_Introduction/Adhoc_Problems/kattis_workout.py) |
 | 906 | [workstations](https://open.kattis.com/problems/workstations) | [C++](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Chapter_3_Problem_Solving_Paradigms/Greedy/kattis_workstations.cpp) |
 | 907 | [xyzzy](https://open.kattis.com/problems/xyzzy) | [C++](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Chapter_4_Graph/SSSP/kattis_xyzzy.cpp) |
-| 908 | [yoda](https://open.kattis.com/problems/yoda) | [Python](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Chapter_5_Mathematics/Adhoc_Math_Problems/kattis_yoda.py) |
-| 909 | [zagrade](https://open.kattis.com/problems/zagrade) | [C++](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Chapter_3_Problem_Solving_Paradigms/Complete_Search/kattis_zagrade.cpp) |
-| 910 | [zanzibar](https://open.kattis.com/problems/zanzibar) | [Haskell](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Chapter_1_Introduction/Easy_Problems/kattis_zanzibar.hs) |
-| 911 | [zipfslaw](https://open.kattis.com/problems/zipfslaw) | [Python](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Chapter_6_String_Processing/Ahoc_String_(Harder)/kattis_zipfslaw.py) |
-| 912 | [zipline](https://open.kattis.com/problems/zipline) | [C++](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Chapter_3_Problem_Solving_Paradigms/Divide_and_Conquer/kattis_zipline.cpp) |
-| 913 | [znanstvenik](https://open.kattis.com/problems/znanstvenik) | [C++](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Chapter_8_Advanced_Topics/8.7_Problem_Decomposition/kattis_znanstvenik.cpp) |
+| 908 | [yinyangstones](https://open.kattis.com/problems/yinyangstones) | [Haskell](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Chapter_1_Introduction/Easy_Problems/kattis_yinyangstones.hs) |
+| 909 | [yoda](https://open.kattis.com/problems/yoda) | [Python](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Chapter_5_Mathematics/Adhoc_Math_Problems/kattis_yoda.py) |
+| 910 | [zagrade](https://open.kattis.com/problems/zagrade) | [C++](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Chapter_3_Problem_Solving_Paradigms/Complete_Search/kattis_zagrade.cpp) |
+| 911 | [zanzibar](https://open.kattis.com/problems/zanzibar) | [Haskell](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Chapter_1_Introduction/Easy_Problems/kattis_zanzibar.hs) |
+| 912 | [zipfslaw](https://open.kattis.com/problems/zipfslaw) | [Python](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Chapter_6_String_Processing/Ahoc_String_(Harder)/kattis_zipfslaw.py) |
+| 913 | [zipline](https://open.kattis.com/problems/zipline) | [C++](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Chapter_3_Problem_Solving_Paradigms/Divide_and_Conquer/kattis_zipline.cpp) |
+| 914 | [znanstvenik](https://open.kattis.com/problems/znanstvenik) | [C++](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Chapter_8_Advanced_Topics/8.7_Problem_Decomposition/kattis_znanstvenik.cpp) |
 # List of Virtual Judge Questions Solved
 | Index | Question Title | Solution |
 | ----- | -------------- | -------- |
