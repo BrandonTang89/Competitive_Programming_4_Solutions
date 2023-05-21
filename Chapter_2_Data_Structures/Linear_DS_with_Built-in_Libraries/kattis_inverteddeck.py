@@ -19,7 +19,7 @@ j = n - 1
 while (j >= i and arr[j] == xs[j]):
     j -= 1
 
-if sorted(xs[i:j+1]) == xs[i:j+1][::-1]:
+if arr[i:j+1] == xs[i:j+1][::-1]:
     print(i+1, j+1)
 else:
     print("impossible")
