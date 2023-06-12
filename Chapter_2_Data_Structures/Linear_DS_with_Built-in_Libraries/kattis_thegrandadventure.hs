@@ -1,3 +1,5 @@
+-- Kattis - grandadventure
+-- Just do a big finite state automata, it may be ugly but it works.
 main :: IO()
 main = interact(unlines . map (getText . solve []) . tail . lines)
 
