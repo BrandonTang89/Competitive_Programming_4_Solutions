@@ -25,9 +25,6 @@
 using namespace std;
 
 typedef long long ll;
-typedef vector<int> vi;
-
-typedef long long ll;
 typedef vector<ll> vll;
 
 int nprimes1e5 = 0;
