@@ -4,7 +4,7 @@
  * shortest path (along src to dest). Honestly, pretty standard. You can combine both steps together
  * by doing the DP bottom up as you do the Dijkstra, but this is less clear imo.
  *
- * Time: O()
+ * Time: O(E log V), Space: O(E + V)
  */
 #pragma GCC optimize("Ofast")
 #pragma GCC target("sse,sse2,sse3,ssse3,sse4,popcnt,abm,mmx,avx,avx2,fma")
