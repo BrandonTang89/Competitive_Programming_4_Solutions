@@ -11,7 +11,7 @@ each mob has equal chance to be the sole mob, all spawn rates are the same (100%
 
 We use the arr = arr + arr trick to deal with wrap around issues.
 
-Time: O(nk), Space: O(nk)
+Time: O(n(n+k)), Space: O(n(n+k))
 '''
 from functools import lru_cache
 n, k = map(int, input().split())
