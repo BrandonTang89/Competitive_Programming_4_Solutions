@@ -17,8 +17,13 @@
  * flows to the sink. In this case, removing any negative node is not beneficial since we could have
  * extra flows through the negative node to the surface.
  *
- * Time: O(V^2*E * num_iterations) which is difficult to quantify
- * Space: O(V^2)
+ * [Looking at someone else's solution, it seems a better strategy is with the same construction:
+ * the max flow is the amount of value that is spilt into mining negative value nodes, any value
+ * that doesn't flow out is extracted at the surface so we take "sum of positive nodes - max flow"
+ * as our answer]
+ *
+ * Time: O(V^2*E * num_iterations) which is difficult to
+ * quantify Space: O(V^2)
  */
 #pragma GCC optimize("Ofast")
 #pragma GCC target("sse,sse2,sse3,ssse3,sse4,popcnt,abm,mmx,avx,avx2,fma")
@@ -158,6 +163,15 @@ int main()
                 mf.add_edge(v, i, 1e9);
             }
         }
+        
+        // // This would be the alternative solution:
+        // int sum = 0;
+        // for (int i=0; i<n; i++){
+        //     if (value[i] > 0) sum += value[i];
+        // }
+        // cout << sum - mf.dinic(src, sink) << endl;
+        // return 0;
+
         mf.dinic(src, sink);
 
         bool changed = false;
