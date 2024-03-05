@@ -13,13 +13,15 @@
  * taking k elements, including i and j, from the interval [i..j]. \
  * If min(mincost(i, j) across all i, j) <= l, then it is possible to send k messages.
  *
- * Consider some set S of k elements from the interval [i..j].
+ * Consider some set S of k elements from the interval [i..j], where {i,j} subset S.
  * We have cost(S, i, j) = sum({a_q | q in S}) + b_j - b_i
- * And mincost(i, j) = min(cost(S, i, j) | S is a set of k elements from [i..j])
+ * And mincost(i, j) = min(cost(S, i, j) | S is a set of k elements from [i..j] containing i and j)
  *
  * We let S*(i, j) be argmin S of cost(S, i, j), i.e. the optimal set of k elements from [i..j]
+ * with both i and j.
  *
- * Calculating S*(i, j) directly will TLE but fortunately we can use the sliding window tactic.
+ * Calculating S*(i, j) directly (via greedily selecting the k-2 elements with the smallest a_q values) 
+ * will TLE but fortunately we can use the sliding window tactic.
  *
  * Fix i. We will efficiently iterate over S(i, j) as follows:
  * For j = i+k-1, we need to take all elements i, i+1, ..., i+k-1
