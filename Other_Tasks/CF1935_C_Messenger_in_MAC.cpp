@@ -9,8 +9,9 @@
  *
  * Now, in our BSTA, we are asking "is it possible to send k messages"
  *
- * To do this, We find min(mincost(i, j) across all i, j) where minimum(i, j) is the minimum cost of
- * taking k elements, including i and j, from the interval [i..j].
+ * To do this, We find min(mincost(i, j) across all i, j) where mincost(i, j) is the minimum cost of
+ * taking k elements, including i and j, from the interval [i..j]. \
+ * If min(mincost(i, j) across all i, j) <= l, then it is possible to send k messages.
  *
  * Consider some set S of k elements from the interval [i..j].
  * We have cost(S, i, j) = sum({a_q | q in S}) + b_j - b_i
