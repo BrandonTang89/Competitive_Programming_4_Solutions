@@ -9,7 +9,7 @@ for _ in range(t):
     p -= 1
     ans = [k+1, k+(1<<(p+1))]
     
-    # if k is a power of 2
+    # if k is a not a power of 2
     if (1<<(p)) != k:
         ans.append(k-(1<<p))
     
