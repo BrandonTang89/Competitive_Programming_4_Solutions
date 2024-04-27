@@ -1,22 +1,9 @@
 # Competitive Programming 4 Solutions
 My solutions to some of the [Kattis](https://open.kattis.com/) problems listed in [Competitive Programming 4](https://cpbook.net/details?cp=4).
-Some [UVA Online Judge](https://onlinejudge.org/) problems are also solved on [Virtual Judge](https://vjudge.net/).
+Some [UVA Online Judge](https://onlinejudge.org/) problems are also solved on [Virtual Judge](https://vjudge.net/). 
 
-The C++ code is written to be compiled using with gcc version 11.2.0 (Ubuntu 11.2.0-19ubuntu1)
-<pre>g++ -std=c++17 kattis_xxx.cpp -o kattis_xxx && kattis_xxx</pre>
-
-Python code is executed using Python 3.10.4 on my machine but will work on the 3.6 of Kattis
-<pre>/bin/python3 kattis_xxx.py</pre>
-
-## Documentation
-| Category | Description |
-|----------|-------------|
-| Observation | A key insight into the question or our currently considered method that might be needed to come up with a correct algorithm or improve the efficiency of an algorithm. |
-| Idea | A new approach to the problem. Could include viewing the problem from a different angle. |
-| Debugging | Descriptions of bugs that one could encounter, possibly including edge cases. |
-| Optimisations | Other micro-optimisations that are not important enough to be considered ideas or observations. |
-| Design | A way we implement an idea in code to keep the code simple and easy to write. |
-| Time & Space Complexity | My analysis of the algorithmic order of growth |
+C++ code usually requires C++17 to work.
+Python code usually requires Python 3.8 to work.
 
 # List of Kattis Questions Solved
 ![Auto Update](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/actions/workflows/Update_README.yml/badge.svg)
@@ -1190,3 +1177,6 @@ Python code is executed using Python 3.10.4 on my machine but will work on the 3
 | 45 | [UVA-652](https://vjudge.net/problem/UVA-652) | [C++](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Chapter_9_Rare_Topics/9.20_A*_and_IDA_Informed_Search/vjudge_UVA-652_Eight.cpp) |
 | 46 | [UVALive-2577](https://vjudge.net/problem/UVALive-2577) | [C++](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Chapter_9_Rare_Topics/9.9_Tree_Isomorphism/vjudge_UVALive-2577_Rooted_Trees_Isomorphism.cpp) |
 | 47 | [ZOJ-1190](https://vjudge.net/problem/ZOJ-1190) | [C++](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Chapter_9_Rare_Topics/9.20_A*_and_IDA_Informed_Search/vjudge_ZOJ-1190_Optimal_Programs.cpp) |
+# List of Code Forces Questions Solved
+| Index | Question Title | Solution |
+| ----- | -------------- | -------- |

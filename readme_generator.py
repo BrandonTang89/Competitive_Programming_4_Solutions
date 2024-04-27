@@ -2,23 +2,10 @@
 import re, os
 start_of_readme = '''# Competitive Programming 4 Solutions
 My solutions to some of the [Kattis](https://open.kattis.com/) problems listed in [Competitive Programming 4](https://cpbook.net/details?cp=4).
-Some [UVA Online Judge](https://onlinejudge.org/) problems are also solved on [Virtual Judge](https://vjudge.net/).
+Some [UVA Online Judge](https://onlinejudge.org/) problems are also solved on [Virtual Judge](https://vjudge.net/). 
 
-The C++ code is written to be compiled using with gcc version 11.2.0 (Ubuntu 11.2.0-19ubuntu1)
-<pre>g++ -std=c++17 kattis_xxx.cpp -o kattis_xxx && kattis_xxx</pre>
-
-Python code is executed using Python 3.10.4 on my machine but will work on the 3.6 of Kattis
-<pre>/bin/python3 kattis_xxx.py</pre>
-
-## Documentation
-| Category | Description |
-|----------|-------------|
-| Observation | A key insight into the question or our currently considered method that might be needed to come up with a correct algorithm or improve the efficiency of an algorithm. |
-| Idea | A new approach to the problem. Could include viewing the problem from a different angle. |
-| Debugging | Descriptions of bugs that one could encounter, possibly including edge cases. |
-| Optimisations | Other micro-optimisations that are not important enough to be considered ideas or observations. |
-| Design | A way we implement an idea in code to keep the code simple and easy to write. |
-| Time & Space Complexity | My analysis of the algorithmic order of growth |
+C++ code usually requires C++17 to work.
+Python code usually requires Python 3.8 to work.
 
 # List of Kattis Questions Solved
 ![Auto Update](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/actions/workflows/Update_README.yml/badge.svg)
@@ -28,22 +15,7 @@ Python code is executed using Python 3.10.4 on my machine but will work on the 3
 print(start_of_readme)
 m_file_types = {'C++': 'cpp', 'Python': 'py', 'Haskell': 'hs', 'C': 'c', 'Ocaml': 'ml', 'Rust': 'rs'}
 
-# Get the Kattis Solutions
-stream = os.popen('find | grep kattis')
-lines = stream.readlines()
-
 things_to_write = []
-for line in lines:
-    line = line.strip()
-
-    # Matches kattis_xxxx.py or kattis_xxxx.cpp or kattis_xxxx.hs
-    m = re.search(r'\/kattis_(\w*)\.(?:py|cpp|hs|c|ml|rs)', line)
-
-    # First capturing group is the problem name
-    things_to_write.append([str(m.group(1)), "https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main" +
-                            line[1:], "https://open.kattis.com/problems/" + str(m.group(1))])
-    
-
 def print_table():
     things_to_write.sort()
     solution_types = []
@@ -54,7 +26,7 @@ def print_table():
                 break
         
         if (index != len(things_to_write) - 1):
-            if (things_to_write[index+1][2] == task):
+            if (things_to_write[index+1][0] == q_name):
                 continue
         
         line = f"| {index+1} | [{q_name}]({task}) | "
@@ -65,9 +37,23 @@ def print_table():
         print(line)
         
         solution_types.clear()
+
+solution_root = "https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main"
+# Get Kattis Solutions
+stream = os.popen('find | grep kattis')
+lines = stream.readlines()
+for line in lines:
+    line = line.strip()
+
+    # Matches kattis_xxxx.py or kattis_xxxx.cpp or kattis_xxxx.hs
+    m = re.search(r'\/kattis_(\w*)\.(?:py|cpp|hs|c|ml|rs)', line)
+
+    # First capturing group is the problem name
+    things_to_write.append([str(m.group(1)), solution_root + line[1:], "https://open.kattis.com/problems/" + str(m.group(1))])
+    
 print_table()
 
-
+# Get VJudge Solutions
 things_to_write.clear()
 stream = os.popen('find | grep vjudge')
 lines = stream.readlines()
@@ -78,9 +64,30 @@ for line in lines:
     m = re.search(r'\/vjudge_([^_]*)(?:.*).(?:py|cpp|hs|c|ml|rs)', line)
 
     # First capturing group is the problem name
-    things_to_write.append([str(m.group(1)), "https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main" +
-                            line[1:], "https://vjudge.net/problem/" + str(m.group(1))])
+    things_to_write.append([str(m.group(1)), solution_root + line[1:], "https://vjudge.net/problem/" + str(m.group(1))])
+
 print('''# List of Virtual Judge Questions Solved
+| Index | Question Title | Solution |
+| ----- | -------------- | -------- |''')
+print_table()
+
+# Get Code Forces Solutions
+things_to_write.clear()
+stream = os.popen('find | grep CF')
+lines = stream.readlines()
+for line in lines:
+    line = line.strip()
+
+    # Matches CF(ContestNumber)_(Problem)_(TaskName).(?:ext)
+    m = re.search(r'CF(\d+)_([^_]+)_(\w+)?\.(?:py|cpp|hs|c|ml|rs)', line)
+
+    contest_number = str(m.group(1))
+    question_letter = str(m.group(2))
+    question_name = str(m.group(3))
+    things_to_write.append([f"CF{contest_number}_{question_letter}_{question_name}", solution_root + line[1:], 
+                            f"https://codeforces.com/contest/{contest_number}/problem/{question_letter}"])
+
+print('''# List of Code Forces Questions Solved
 | Index | Question Title | Solution |
 | ----- | -------------- | -------- |''')
 
