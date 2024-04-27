@@ -1180,3 +1180,16 @@ Python code usually requires Python 3.8 to work.
 # List of Code Forces Questions Solved
 | Index | Question Title | Solution |
 | ----- | -------------- | -------- |
+| 1 | [CF1920_D_Array_Repetition](https://codeforces.com/contest/1920/problem/D) | [C++](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF1920_D_Array_Repetition.cpp) |
+| 2 | [CF1935_C_Messenger_in_MAC](https://codeforces.com/contest/1935/problem/C) | [C++](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF1935_C_Messenger_in_MAC.cpp) |
+| 3 | [CF1937_A_Shuffle_Party](https://codeforces.com/contest/1937/problem/A) | [Python](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF1937_A_Shuffle_Party.py) |
+| 4 | [CF1937_B_Binary_Path](https://codeforces.com/contest/1937/problem/B) | [C++](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF1937_B_Binary_Path.cpp) |
+| 5 | [CF1937_C_Bitwise_Operation_Wizard](https://codeforces.com/contest/1937/problem/C) | [C++](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF1937_C_Bitwise_Operation_Wizard.cpp) |
+| 6 | [CF1957_A_Stickogon](https://codeforces.com/contest/1957/problem/A) | [Python](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF1957_A_Stickogon.py) |
+| 7 | [CF1957_B_A_BIT_of_a_Construction](https://codeforces.com/contest/1957/problem/B) | [Python](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF1957_B_A_BIT_of_a_Construction.py) |
+| 8 | [CF1957_C_How_Does_the_Rook_Move](https://codeforces.com/contest/1957/problem/C) | [Python](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF1957_C_How_Does_the_Rook_Move.py) |
+| 9 | [CF1957_D_A_BIT_of_an_Inequality](https://codeforces.com/contest/1957/problem/D) | [C++](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF1957_D_A_BIT_of_an_Inequality.cpp) |
+| 10 | [CF1966_A_Card_Exchange](https://codeforces.com/contest/1966/problem/A) | [Python](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF1966_A_Card_Exchange.py) |
+| 11 | [CF1966_B_Rectangle_Filling](https://codeforces.com/contest/1966/problem/B) | [Python](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF1966_B_Rectangle_Filling.py) |
+| 12 | [CF1966_C_Everything_Nim](https://codeforces.com/contest/1966/problem/C) | [Python](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF1966_C_Everything_Nim.py) |
+| 13 | [CF1966_D_Missing_Subsequence_Sum](https://codeforces.com/contest/1966/problem/D) | [Python](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF1966_D_Missing_Subsequence_Sum.py) |
