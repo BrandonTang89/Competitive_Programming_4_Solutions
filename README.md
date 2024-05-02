@@ -1203,4 +1203,4 @@ Python code usually requires Python 3.8 to work.
 | 21 | [CF1972_A_Contest_Proposal](https://codeforces.com/contest/1972/problem/A) | [Python](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF1972_A_Contest_Proposal.py) |
 | 22 | [CF1972_B_Coin_Games](https://codeforces.com/contest/1972/problem/B) | [Python](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF1972_B_Coin_Games.py) |
 | 23 | [CF1972_C_Permutation_Counting](https://codeforces.com/contest/1972/problem/C) | [C++](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF1972_C_Permutation_Counting.cpp) |
-| 24 | [CF1972_D_1_Reverse_Card_Easy_Version](https://codeforces.com/contest/1972/problem/D) | [C++](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF1972_D_1_Reverse_Card_Easy_Version.cpp) |
+| 24 | [CF1972_D1_Reverse_Card_Easy_Version](https://codeforces.com/contest/1972/problem/D1) | [C++](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF1972_D1_Reverse_Card_Easy_Version.cpp) |
