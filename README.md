@@ -1180,7 +1180,7 @@ Python code usually requires Python 3.8 to work.
 # List of Code Forces Questions Solved
 | Index | Question Title | Solution |
 | ----- | -------------- | -------- |
-| 1 | [CF1848_G_Vika_and_Stone_Skipping](https://codeforces.com/contest/1848/problem/G) | [C++](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF1848_G_Vika_and_Stone_Skipping.cpp) |
+| 1 | [CF1848_E_Vika_and_Stone_Skipping](https://codeforces.com/contest/1848/problem/E) | [C++](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF1848_E_Vika_and_Stone_Skipping.cpp) |
 | 2 | [CF1920_D_Array_Repetition](https://codeforces.com/contest/1920/problem/D) | [C++](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF1920_D_Array_Repetition.cpp) |
 | 3 | [CF1923_C_Find_B](https://codeforces.com/contest/1923/problem/C) | [C++](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF1923_C_Find_B.cpp) |
 | 4 | [CF1923_D_Slimes](https://codeforces.com/contest/1923/problem/D) | [C++](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF1923_D_Slimes.cpp) |
