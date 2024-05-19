@@ -79,7 +79,7 @@ for line in lines:
     line = line.strip()
 
     # Matches CF(ContestNumber)_(Problem)_(TaskName).(?:ext)
-    m = re.search(r'CF(\d+)_([^_]+)_(\w+)?\.(?:py|cpp|hs|c|ml|rs)', line)
+    m = re.search(r'CF(\d+)_([^_]+)_([^_]+)?\.(?:py|cpp|hs|c|ml|rs)', line)
 
     contest_number = str(m.group(1))
     question_letter = str(m.group(2))
