@@ -1221,3 +1221,4 @@ Python code usually requires Python 3.8 to work.
 | 39 | [CF1973_B_Cat_Fox_and_the_Lonely_Array](https://codeforces.com/contest/1973/problem/B) | [C++](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF1973_B_Cat_Fox_and_the_Lonely_Array.cpp) |
 | 40 | [CF1973_C_Cat_Fox_and_Double_Maximum](https://codeforces.com/contest/1973/problem/C) | [Python](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF1973_C_Cat_Fox_and_Double_Maximum.py) |
 | 41 | [CF1974_C_Beautiful_Triple_Pairs](https://codeforces.com/contest/1974/problem/C) | [C++](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF1974_C_Beautiful_Triple_Pairs.cpp) |
+| 42 | [CF1974_D_Ingenuity_2](https://codeforces.com/contest/1974/problem/D) | [Python](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF1974_D_Ingenuity_2.py) |
