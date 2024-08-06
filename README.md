@@ -1235,3 +1235,7 @@ Python code usually requires Python 3.8 to work.
 | 53 | [CF1990_B_Array_Craft](https://codeforces.com/contest/1990/problem/B) | [Python](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF1990_B_Array_Craft.py) |
 | 54 | [CF1990_C_Mad_MAD_Sum](https://codeforces.com/contest/1990/problem/C) | [Python](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF1990_C_Mad_MAD_Sum.py) |
 | 55 | [CF1990_D_Grid_Puzzle](https://codeforces.com/contest/1990/problem/D) | [Python](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF1990_D_Grid_Puzzle.py) |
+| 56 | [CF1993_A_Question_Marks](https://codeforces.com/contest/1993/problem/A) | [Python](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF1993_A_Question_Marks.py) |
+| 57 | [CF1993_B_Parity_and_Sum](https://codeforces.com/contest/1993/problem/B) | [Python](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF1993_B_Parity_and_Sum.py) |
+| 58 | [CF1993_C_Light_Switches](https://codeforces.com/contest/1993/problem/C) | [C++](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF1993_C_Light_Switches.cpp) |
+| 59 | [CF1993_D_Med_imize](https://codeforces.com/contest/1993/problem/D) | [C++](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF1993_D_Med_imize.cpp) |
