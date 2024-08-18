@@ -1239,3 +1239,8 @@ Python code usually requires Python 3.8 to work.
 | 57 | [CF1993_B_Parity_and_Sum](https://codeforces.com/contest/1993/problem/B) | [Python](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF1993_B_Parity_and_Sum.py) |
 | 58 | [CF1993_C_Light_Switches](https://codeforces.com/contest/1993/problem/C) | [C++](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF1993_C_Light_Switches.cpp) |
 | 59 | [CF1993_D_Med_imize](https://codeforces.com/contest/1993/problem/D) | [C++](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF1993_D_Med_imize.cpp) |
+| 60 | [CF2004_A_Closest_Point](https://codeforces.com/contest/2004/problem/A) | [Python](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF2004_A_Closest_Point.py) |
+| 61 | [CF2004_B_Game_with_Doors](https://codeforces.com/contest/2004/problem/B) | [Python](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF2004_B_Game_with_Doors.py) |
+| 62 | [CF2004_C_Splitting_Items](https://codeforces.com/contest/2004/problem/C) | [Python](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF2004_C_Splitting_Items.py) |
+| 63 | [CF2004_D_Colored_Portals](https://codeforces.com/contest/2004/problem/D) | [Python](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF2004_D_Colored_Portals.py) |
+| 64 | [CF2004_E_Not_a_Nim_Problem](https://codeforces.com/contest/2004/problem/E) | [C++](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF2004_E_Not_a_Nim_Problem.cpp) |
