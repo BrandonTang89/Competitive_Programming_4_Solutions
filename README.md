@@ -1244,3 +1244,4 @@ Python code usually requires Python 3.8 to work.
 | 62 | [CF2004_C_Splitting_Items](https://codeforces.com/contest/2004/problem/C) | [Python](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF2004_C_Splitting_Items.py) |
 | 63 | [CF2004_D_Colored_Portals](https://codeforces.com/contest/2004/problem/D) | [Python](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF2004_D_Colored_Portals.py) |
 | 64 | [CF2004_E_Not_a_Nim_Problem](https://codeforces.com/contest/2004/problem/E) | [C++](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF2004_E_Not_a_Nim_Problem.cpp) |
+| 65 | [CF2007_C_Dora_and_C](https://codeforces.com/contest/2007/problem/C) | [C++](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF2007_C_Dora_and_C.cpp) |
