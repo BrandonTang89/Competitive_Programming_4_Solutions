@@ -1258,3 +1258,5 @@ Python code usually requires Python 3.8 to work.
 | 76 | [CF2027_C_Add_Zeros](https://codeforces.com/contest/2027/problem/C) | [C++](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF2027_C_Add_Zeros.cpp) |
 | 77 | [CF2027_D1_The_Endspeaker_Easy_Version](https://codeforces.com/contest/2027/problem/D1) | [C++](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF2027_D1_The_Endspeaker_Easy_Version.cpp) |
 | 78 | [CF2027_D2_The_Endspeaker_Hard_Version](https://codeforces.com/contest/2027/problem/D2) | [C++](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF2027_D2_The_Endspeaker_Hard_Version.cpp) |
+| 79 | [CF2036_E_Reverse_the_Rivers](https://codeforces.com/contest/2036/problem/E) | [Python](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF2036_E_Reverse_the_Rivers.py) |
+| 80 | [CF2036_F_XORificator_3000](https://codeforces.com/contest/2036/problem/F) | [Python](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF2036_F_XORificator_3000.py) |
