@@ -1284,3 +1284,4 @@ Python code usually requires Python 3.8 to work.
 | 102 | [CF2062_C_Cirno_and_Operations](https://codeforces.com/contest/2062/problem/C) | [Python](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF2062_C_Cirno_and_Operations.py) |
 | 103 | [CF2062_D_Balanced_Tree](https://codeforces.com/contest/2062/problem/D) | [C++](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF2062_D_Balanced_Tree.cpp) |
 | 104 | [CF2062_E1_The_Game_Easy_Version](https://codeforces.com/contest/2062/problem/E1) | [C++](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF2062_E1_The_Game_Easy_Version.cpp) |
+| 105 | [CF2063_D_Game_With_Triangles](https://codeforces.com/contest/2063/problem/D) | [C++](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF2063_D_Game_With_Triangles.cpp) |
