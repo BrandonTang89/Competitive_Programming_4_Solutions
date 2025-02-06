@@ -1295,4 +1295,5 @@ Python code usually requires Python 3.8 to work.
 | 113 | [CF2062_D_Balanced_Tree](https://codeforces.com/contest/2062/problem/D) | [C++](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF2062_D_Balanced_Tree.cpp) |
 | 114 | [CF2062_E1_The_Game_Easy_Version](https://codeforces.com/contest/2062/problem/E1) | [C++](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF2062_E1_The_Game_Easy_Version.cpp) |
 | 115 | [CF2063_B_Subsequence_Update](https://codeforces.com/contest/2063/problem/B) | [C++](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF2063_B_Subsequence_Update.cpp) |
-| 116 | [CF2063_D_Game_With_Triangles](https://codeforces.com/contest/2063/problem/D) | [C++](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF2063_D_Game_With_Triangles.cpp) |
+| 116 | [CF2063_C_Remove_Exactly_Two](https://codeforces.com/contest/2063/problem/C) | [C++](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF2063_C_Remove_Exactly_Two.cpp) |
+| 117 | [CF2063_D_Game_With_Triangles](https://codeforces.com/contest/2063/problem/D) | [C++](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF2063_D_Game_With_Triangles.cpp) |
