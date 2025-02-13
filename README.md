@@ -1310,3 +1310,4 @@ Python code usually requires Python 3.8 to work.
 | 128 | [CF2066_C_Bitwise_Slides](https://codeforces.com/contest/2066/problem/C) | [C++](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF2066_C_Bitwise_Slides.cpp) |
 | 129 | [CF2067_A_Adjacent_Digit_Sums](https://codeforces.com/contest/2067/problem/A) | [Python](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF2067_A_Adjacent_Digit_Sums.py) |
 | 130 | [CF2067_B_Two_Large_Bags](https://codeforces.com/contest/2067/problem/B) | [C++](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF2067_B_Two_Large_Bags.cpp) |
+| 131 | [CF2067_C_Devyatkino](https://codeforces.com/contest/2067/problem/C) | [C++](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF2067_C_Devyatkino.cpp) |
