@@ -1313,3 +1313,5 @@ Python code usually requires Python 3.8 to work.
 | 131 | [CF2067_A_Adjacent_Digit_Sums](https://codeforces.com/contest/2067/problem/A) | [Python](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF2067_A_Adjacent_Digit_Sums.py) |
 | 132 | [CF2067_B_Two_Large_Bags](https://codeforces.com/contest/2067/problem/B) | [C++](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF2067_B_Two_Large_Bags.cpp) |
 | 133 | [CF2067_C_Devyatkino](https://codeforces.com/contest/2067/problem/C) | [C++](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF2067_C_Devyatkino.cpp) |
+| 134 | [CF2069_A_Was_there_an_Array](https://codeforces.com/contest/2069/problem/A) | [Python](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF2069_A_Was_there_an_Array.py) |
+| 135 | [CF2069_B_Set_of_Stranger](https://codeforces.com/contest/2069/problem/B) | [C++](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF2069_B_Set_of_Stranger.cpp) |
