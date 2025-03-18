@@ -1339,3 +1339,6 @@ Python code usually requires Python 3.8 to work.
 | 156 | [CF2078_A_Final_Verdict](https://codeforces.com/contest/2078/problem/A) | [Python](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF2078_A_Final_Verdict.py) |
 | 157 | [CF2078_B_Vicious_Labyrinth](https://codeforces.com/contest/2078/problem/B) | [Python](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF2078_B_Vicious_Labyrinth.py) |
 | 158 | [CF2078_D_Scammy_Game_Ad](https://codeforces.com/contest/2078/problem/D) | [C++](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF2078_D_Scammy_Game_Ad.cpp) |
+| 159 | [CF2082_A_Binary_Matrix](https://codeforces.com/contest/2082/problem/A) | [C++](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF2082_A_Binary_Matrix.cpp) |
+| 160 | [CF2082_B_Floor_or_Ceil](https://codeforces.com/contest/2082/problem/B) | [C++](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF2082_B_Floor_or_Ceil.cpp) |
+| 161 | [CF2082_C_Math_Division](https://codeforces.com/contest/2082/problem/C) | [C++](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF2082_C_Math_Division.cpp) |
