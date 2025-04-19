@@ -1354,3 +1354,4 @@ Python code usually requires Python 3.8 to work.
 | 171 | [CF2096_C_Wonderful_City](https://codeforces.com/contest/2096/problem/C) | [C++](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF2096_C_Wonderful_City.cpp) |
 | 172 | [CF2096_D_Wonderful_Lightbulbs](https://codeforces.com/contest/2096/problem/D) | [Python](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF2096_D_Wonderful_Lightbulbs.py) |
 | 173 | [CF2096_E_Wonderful_Teddy_Bears](https://codeforces.com/contest/2096/problem/E) | [Python](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF2096_E_Wonderful_Teddy_Bears.py) |
+| 174 | [CF2096_F_Wonderful_Impostors](https://codeforces.com/contest/2096/problem/F) | [C++](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF2096_F_Wonderful_Impostors.cpp) |
