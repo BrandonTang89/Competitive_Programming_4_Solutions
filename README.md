@@ -1355,3 +1355,7 @@ Python code usually requires Python 3.8 to work.
 | 172 | [CF2096_D_Wonderful_Lightbulbs](https://codeforces.com/contest/2096/problem/D) | [Python](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF2096_D_Wonderful_Lightbulbs.py) |
 | 173 | [CF2096_E_Wonderful_Teddy_Bears](https://codeforces.com/contest/2096/problem/E) | [Python](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF2096_E_Wonderful_Teddy_Bears.py) |
 | 174 | [CF2096_F_Wonderful_Impostors](https://codeforces.com/contest/2096/problem/F) | [C++](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF2096_F_Wonderful_Impostors.cpp) |
+| 175 | [CF2106_A_Dr_TC](https://codeforces.com/contest/2106/problem/A) | [Python](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF2106_A_Dr_TC.py) |
+| 176 | [CF2106_B_St_Chroma](https://codeforces.com/contest/2106/problem/B) | [Python](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF2106_B_St_Chroma.py) |
+| 177 | [CF2106_C_Cherry_Bomb](https://codeforces.com/contest/2106/problem/C) | [Python](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF2106_C_Cherry_Bomb.py) |
+| 178 | [CF2106_D_Flower_Boy](https://codeforces.com/contest/2106/problem/D) | [C++](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF2106_D_Flower_Boy.cpp) |
