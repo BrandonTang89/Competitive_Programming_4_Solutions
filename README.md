@@ -1367,3 +1367,8 @@ Python code usually requires Python 3.8 to work.
 | 184 | [CF2106_B_St_Chroma](https://codeforces.com/contest/2106/problem/B) | [Python](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF2106_B_St_Chroma.py) |
 | 185 | [CF2106_C_Cherry_Bomb](https://codeforces.com/contest/2106/problem/C) | [Python](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF2106_C_Cherry_Bomb.py) |
 | 186 | [CF2106_D_Flower_Boy](https://codeforces.com/contest/2106/problem/D) | [C++](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF2106_D_Flower_Boy.cpp) |
+| 187 | [CF2111_A_Energy_Crystals](https://codeforces.com/contest/2111/problem/A) | [Python](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF2111_A_Energy_Crystals.py) |
+| 188 | [CF2111_B_Fibonacci_Cubes](https://codeforces.com/contest/2111/problem/B) | [Python](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF2111_B_Fibonacci_Cubes.py) |
+| 189 | [CF2111_C_Equal_Values](https://codeforces.com/contest/2111/problem/C) | [Python](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF2111_C_Equal_Values.py) |
+| 190 | [CF2111_D_Creating_a_Schedule](https://codeforces.com/contest/2111/problem/D) | [Python](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF2111_D_Creating_a_Schedule.py) |
+| 191 | [CF2111_E_Changing_the_String](https://codeforces.com/contest/2111/problem/E) | [C++](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF2111_E_Changing_the_String.cpp) |
