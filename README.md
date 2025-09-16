@@ -1372,3 +1372,6 @@ Python code usually requires Python 3.8 to work.
 | 189 | [CF2111_C_Equal_Values](https://codeforces.com/contest/2111/problem/C) | [Python](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF2111_C_Equal_Values.py) |
 | 190 | [CF2111_D_Creating_a_Schedule](https://codeforces.com/contest/2111/problem/D) | [Python](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF2111_D_Creating_a_Schedule.py) |
 | 191 | [CF2111_E_Changing_the_String](https://codeforces.com/contest/2111/problem/E) | [C++](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF2111_E_Changing_the_String.cpp) |
+| 192 | [CF2112_A_Race](https://codeforces.com/contest/2112/problem/A) | [Python](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF2112_A_Race.py) |
+| 193 | [CF2112_B_Shrinking_Array](https://codeforces.com/contest/2112/problem/B) | [Python](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF2112_B_Shrinking_Array.py) |
+| 194 | [CF2112_C_Coloring_Game](https://codeforces.com/contest/2112/problem/C) | [Python](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF2112_C_Coloring_Game.py) |
