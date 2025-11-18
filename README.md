@@ -1375,3 +1375,6 @@ Python code usually requires Python 3.8 to work.
 | 192 | [CF2112_A_Race](https://codeforces.com/contest/2112/problem/A) | [Python](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF2112_A_Race.py) |
 | 193 | [CF2112_B_Shrinking_Array](https://codeforces.com/contest/2112/problem/B) | [Python](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF2112_B_Shrinking_Array.py) |
 | 194 | [CF2112_C_Coloring_Game](https://codeforces.com/contest/2112/problem/C) | [Python](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF2112_C_Coloring_Game.py) |
+| 195 | [CF2165_A_Cyclic_Merging](https://codeforces.com/contest/2165/problem/A) | [C++](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF2165_A_Cyclic_Merging.cpp) |
+| 196 | [CF2165_B_Marble_Council](https://codeforces.com/contest/2165/problem/B) | [C++](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF2165_B_Marble_Council.cpp) |
+| 197 | [CF2165_C_Binary_Wine](https://codeforces.com/contest/2165/problem/C) | [C++](https://github.com/BrandonTang89/Competitive_Programming_4_Solutions/blob/main/Other_Tasks/CF2165_C_Binary_Wine.cpp) |
